@@ -1,0 +1,367 @@
+{
+ "_como_editar": "Cada obra es un bloque. Para agregar una, copie un bloque, cambie el id y los datos. estado puede ser: suspendida, en-plazo, investigada, por-verificar. Las fechas van como AAAA-MM-DD. valor y pagado van en pesos, sin puntos.",
+ "actualizado": "2026-10-29",
+ "obras": [
+  {
+   "id": "palmar",
+   "nombre": {
+    "es": "Parque El Palmar",
+    "en": "El Palmar Park"
+   },
+   "lugar": {
+    "es": "Barrio El Palmar, frente al D1",
+    "en": "El Palmar neighborhood, across from the D1 store"
+   },
+   "estado": "suspendida",
+   "valor": 936215474,
+   "pagado": 744000000,
+   "suspendidaDesde": "2026-07-20",
+   "fechasIncumplidas": [
+    "2026-05-09",
+    "2026-07-30"
+   ],
+   "busca": "PALMAR",
+   "foto": null,
+   "resumen": {
+    "es": "Obra de $936 millones contratada por EDURHABA, una empresa del Urabá a la que la Alcaldía le delegó el parque. Según la denuncia ya le pagaron $744 millones al contratista, la obra está parada desde el 20 de julio y ahora piden más plata y más tiempo.",
+    "en": "A 936 million peso project contracted by EDURHABA, a Urabá company the Mayor's office delegated the park to. According to the complaint, the contractor has already been paid 744 million, the works have been stopped since July 20, and now they want more money and time."
+   },
+   "fuente": {
+    "es": "Documentos del SECOP II: contrato interadministrativo CI-022-2025, CDP 01205 y 01355, aviso de convocatoria, estudios previos y proyecto de pliegos del proceso MN-022-2025 de EDURHABA. Lo pagado ($744 millones), la suspensión y las fechas incumplidas vienen de la denuncia en video de Javier Alejandro Valencia (octubre de 2026).",
+    "en": "SECOP II records: inter-agency contract CI-022-2025, budget certificates 01205 and 01355, call notice, preliminary studies and draft terms of EDURHABA process MN-022-2025. The amount paid (744 million), the suspension and the missed dates come from Javier Alejandro Valencia's video complaint (October 2026)."
+   },
+   "linea": [
+    {
+     "f": "2025-10-15",
+     "es": "CDP 01205 por $1.011 millones para la obra y la interventoría.",
+     "en": "Budget certificate 01205 for 1,011 million for works and oversight."
+    },
+    {
+     "f": "2025-11-21",
+     "es": "CDP 01355 por $30 millones para los honorarios de EDURHABA.",
+     "en": "Budget certificate 01355 for 30 million for EDURHABA's fee."
+    },
+    {
+     "f": "2025-12-04",
+     "es": "El alcalde Jhoan Oderis Montes Cortés firma el contrato CI-022-2025 por $1.041 millones con EDURHABA (gerente Javier Fernando Romero Forero). Plazo: hasta el 30 de diciembre de 2025.",
+     "en": "Mayor Jhoan Oderis Montes Cortés signs contract CI-022-2025 for 1,041 million with EDURHABA (manager Javier Fernando Romero Forero). Term: until December 30, 2025.",
+     "ojo": true
+    },
+    {
+     "f": "2025-12-18",
+     "es": "EDURHABA abre el proceso de la obra MN-022-2025 por $936.215.474, plazo 3 meses.",
+     "en": "EDURHABA opens works process MN-022-2025 for 936,215,474 pesos, 3-month term."
+    },
+    {
+     "f": "2025-12-19",
+     "es": "EDURHABA abre el proceso de la interventoría PSC-MIC-028-2025.",
+     "en": "EDURHABA opens oversight process PSC-MIC-028-2025."
+    },
+    {
+     "f": "2025-12-24",
+     "es": "Cierre y apertura de propuestas de la obra en Apartadó.",
+     "en": "Bids for the works close and are opened in Apartadó."
+    },
+    {
+     "f": "2025-12-31",
+     "es": "Fecha programada de adjudicación de la obra, un día después de vencido el plazo del contrato con EDURHABA.",
+     "en": "Scheduled award date, one day after the EDURHABA contract term ended.",
+     "ojo": true
+    },
+    {
+     "f": "2026-05-09",
+     "es": "Primera fecha de terminación. La obra no se entregó.",
+     "en": "First completion date. The park was not delivered.",
+     "ojo": true
+    },
+    {
+     "f": "2026-07-20",
+     "es": "Suspenden la obra.",
+     "en": "The works are suspended.",
+     "ojo": true
+    },
+    {
+     "f": "2026-07-30",
+     "es": "Segunda fecha de terminación. Tampoco se cumplió.",
+     "en": "Second completion date. Also missed.",
+     "ojo": true
+    },
+    {
+     "f": "2026-10-29",
+     "es": "Denuncia pública: el contratista pide adición en dinero y en tiempo porque con los casi $200 millones que faltan no termina.",
+     "en": "Public complaint: the contractor asks for more money and time, saying the nearly 200 million left will not finish the job."
+    }
+   ],
+   "preguntas": [
+    {
+     "es": "¿Quién ganó la obra MN-022-2025 y quién la interventoría?",
+     "en": "Who won works process MN-022-2025, and who won the oversight contract?"
+    },
+    {
+     "es": "De los $744 millones pagados, ¿cuánto fue el pago anticipado del 50% y cuánto fueron actas de avance? ¿Quién firmó esas actas?",
+     "en": "Of the 744 million paid, how much was the 50% up-front payment and how much were progress payments? Who signed them?"
+    },
+    {
+     "es": "¿Qué porcentaje de la obra está hecho de verdad, según el último informe de interventoría?",
+     "en": "What percentage of the work is actually done, according to the latest oversight report?"
+    },
+    {
+     "es": "¿Con qué otrosí se prorrogó el contrato con EDURHABA, que vencía el 30 de diciembre de 2025?",
+     "en": "Which amendment extended the EDURHABA contract, which expired on December 30, 2025?"
+    },
+    {
+     "es": "¿Por qué un parque se paga con la plata del fondo de convivencia y seguridad ciudadana?",
+     "en": "Why is a park paid for with the coexistence and citizen security fund?"
+    },
+    {
+     "es": "¿Por qué no se ha hecho efectiva la póliza de cumplimiento (20% del contrato)?",
+     "en": "Why hasn't the performance bond (20% of the contract) been claimed?"
+    },
+    {
+     "es": "¿Cuánta plata más piden y quién la aprobaría?",
+     "en": "How much more money are they asking for, and who would approve it?"
+    }
+   ],
+   "entidad": "EDURHABA (EICE Empresa para el Desarrollo Urbano, Rural y Hábitat del Urabá, Apartadó), por administración delegada",
+   "contratista": "Por confirmar en el detalle del proceso PSC-MN-022-2025",
+   "interventoria": "Proceso PSC-MIC-028-2025 ($74.996.001)",
+   "secop": [
+    {
+     "ref": "CI-022-2025",
+     "entidad": "Alcaldía de Caucasia",
+     "publicado": "2025-12-04",
+     "es": "Contrato interadministrativo por administración delegada con EDURHABA para la construcción e interventoría del parque.",
+     "en": "Inter-agency contract (delegated administration) with EDURHABA for the park's construction and oversight."
+    },
+    {
+     "ref": "PSC-MN-022-2025",
+     "entidad": "EDURHABA",
+     "publicado": "2025-12-18",
+     "es": "Proceso de la obra: construcción, mejoramiento, adecuación y dotación del espacio público en el Parque El Palmar.",
+     "en": "Works process: construction, upgrade and fitting-out of public space at El Palmar Park."
+    },
+    {
+     "ref": "PSC-MIC-028-2025",
+     "entidad": "EDURHABA",
+     "publicado": "2025-12-19",
+     "es": "Proceso de la interventoría técnica, administrativa, financiera y ambiental de la obra.",
+     "en": "Process for the technical, administrative, financial and environmental oversight of the works."
+    }
+   ],
+   "plata": [
+    {
+     "k": "directo",
+     "v": 681285506,
+     "es": "Obra física (pisos, concretos, juegos, rellenos)",
+     "en": "Physical works (floors, concrete, play equipment, fill)"
+    },
+    {
+     "k": "admin",
+     "v": 204385723,
+     "es": "Administración del contratista (30%)",
+     "en": "Contractor overhead (30%)"
+    },
+    {
+     "k": "util",
+     "v": 34064275,
+     "es": "Utilidad del contratista (5%)",
+     "en": "Contractor profit (5%)"
+    },
+    {
+     "k": "pgio",
+     "v": 16479970,
+     "es": "Plan de gestión de obra",
+     "en": "Site management plan"
+    },
+    {
+     "k": "inter",
+     "v": 74996001,
+     "es": "Interventoría (3 meses)",
+     "en": "Oversight firm (3 months)"
+    },
+    {
+     "k": "edur",
+     "v": 30000000,
+     "es": "Honorarios de EDURHABA (2,97%)",
+     "en": "EDURHABA fee (2.97%)"
+    }
+   ],
+   "pago": {
+    "es": "Forma de pago del contrato de obra: 50% como pago anticipado apenas se firma el acta de inicio, 40% en actas según el avance aprobado por la interventoría, y el último 10% solo cuando se reciba la obra terminada.",
+    "en": "Payment terms of the works contract: 50% paid up front once the start certificate is signed, 40% in progress payments approved by the oversight firm, and the last 10% only when the finished park is received."
+   },
+   "hallazgos": [
+    {
+     "es": "De los $936 millones de la obra, solo $681 millones son obra física. Otros $238 millones son administración (30%) y utilidad (5%) del contratista: por cada $100 de obra, $35 más.",
+     "en": "Of the 936 million, only 681 million is physical work. Another 238 million is contractor overhead (30%) and profit (5%): for every 100 pesos of work, 35 more."
+    },
+    {
+     "es": "El contrato con EDURHABA (CI-022-2025) se firmó el 4 de diciembre de 2025 con plazo hasta el 30 de diciembre de 2025. Pero la obra dura 3 meses y su adjudicación estaba programada para el 31 de diciembre. ¿Lo prorrogaron? Hay que pedir los otrosíes.",
+     "en": "The EDURHABA contract (CI-022-2025) was signed on December 4, 2025, with a term until December 30, 2025. But the works last 3 months and the award was scheduled for December 31. Was it extended? Ask for the amendments."
+    },
+    {
+     "es": "Los dos certificados de disponibilidad presupuestal (01205 y 01355) sacan la plata del rubro de contribución sobre contratos de obra pública, destinado a convivencia y seguridad ciudadana. El contrato dice que el proyecto es de deporte y recreación.",
+     "en": "Both budget certificates (01205 and 01355) take the money from the public works contract levy, earmarked for coexistence and citizen security. The contract says the project is sports and recreation."
+    },
+    {
+     "es": "El 50% inicial es pago anticipado, no anticipo: no exige fiducia y la plata queda del contratista. Hay que preguntar cuánto de los $744 millones fue ese pago y cuánto fueron actas de avance firmadas por la interventoría.",
+     "en": "The first 50% is an up-front payment, not a refundable advance: it needs no trust account and the money belongs to the contractor. Ask how much of the 744 million was that payment and how much was progress certified by the oversight firm."
+    },
+    {
+     "es": "Los estudios previos de la obra justifican la necesidad con la adecuación del terreno para una cancha de fútbol sintética, algo que no está en el presupuesto del parque. Parece un texto copiado de otro proyecto.",
+     "en": "The works' preliminary studies justify the need with ground preparation for a synthetic soccer field, which is not in the park budget. It looks like text copied from another project."
+    }
+   ]
+  },
+  {
+   "id": "triangulo",
+   "nombre": {
+    "es": "Parque Lineal El Triángulo, segunda etapa",
+    "en": "El Triángulo Linear Park, phase two"
+   },
+   "lugar": {
+    "es": "Barrio El Triángulo",
+    "en": "El Triángulo neighborhood"
+   },
+   "estado": "en-plazo",
+   "valor": 2801867017,
+   "pagado": null,
+   "inicio": "2026-10-15",
+   "fin": "2027-02-14",
+   "contratista": "M&L Concretos y Diseños S.A.S.",
+   "entidad": "EDUAN (Empresa de Desarrollo Urbano de Andes)",
+   "interventoria": "CONSUIDEA S.A.S. ($153.590.029)",
+   "busca": "TRIANGULO",
+   "foto": null,
+   "app": "https://parque-lineal-en-caucasia.netlify.app/",
+   "resumen": {
+    "es": "Contrato 041 de 2026 por $2.801 millones de regalías. Cuatro meses de plazo desde el 15 de octubre. El 28 de octubre no se veía valla de obra ni trabajadores.",
+    "en": "Contract 041 of 2026 for 2,801 million pesos in royalties. Four-month term from October 15. On October 28 there was no works billboard or workers in sight."
+   },
+   "fuente": {
+    "es": "Documentos públicos del SECOP II (proceso EDUAN 077-2026).",
+    "en": "Public SECOP II records (EDUAN process 077-2026)."
+   },
+   "linea": [
+    {
+     "f": "2026-10-14",
+     "es": "Firman el contrato con M&L Concretos y Diseños S.A.S.",
+     "en": "Contract signed with M&L Concretos y Diseños S.A.S."
+    },
+    {
+     "f": "2026-10-15",
+     "es": "Acta de inicio. Empieza a correr el plazo de 4 meses.",
+     "en": "Start certificate. The 4-month term begins.",
+     "ojo": true
+    },
+    {
+     "f": "2026-10-28",
+     "es": "Visita: no se ve valla de obra ni trabajadores.",
+     "en": "Site visit: no works billboard or workers in sight."
+    },
+    {
+     "f": "2027-02-14",
+     "es": "Fecha de entrega según el contrato.",
+     "en": "Delivery date under the contract.",
+     "ojo": true
+    }
+   ],
+   "preguntas": [
+    {
+     "es": "¿Ya se giró el anticipo? ¿A qué cuenta?",
+     "en": "Has the advance been paid? Into which account?"
+    },
+    {
+     "es": "¿Dónde está la valla de obra con el valor y el plazo?",
+     "en": "Where is the works billboard showing the value and term?"
+    }
+   ]
+  },
+  {
+   "id": "camello",
+   "nombre": {
+    "es": "Parque El Camello",
+    "en": "El Camello Park"
+   },
+   "lugar": {
+    "es": "Sector El Camello",
+    "en": "El Camello area"
+   },
+   "estado": "por-verificar",
+   "valor": null,
+   "pagado": null,
+   "busca": "CAMELLO",
+   "foto": null,
+   "resumen": {
+    "es": "La Alcaldía socializó en noviembre de 2024 la transformación del parque, dentro del proyecto de adecuación y dotación de parques urbanos. No se publicó valor ni contratista. ¿Ya lo entregaron?",
+    "en": "In November 2024 the Mayor's office presented the park's makeover, part of the urban parks upgrade project. No value or contractor was published. Has it been delivered?"
+   },
+   "fuente": {
+    "es": "Noticaribe, 4 de noviembre de 2024.",
+    "en": "Noticaribe, November 4, 2024.",
+    "url": "https://noticaribe.co/alcaldia-de-caucasia-socializo-nuevamente-las-obras-de-transformacion-del-parque-el-camello/"
+   },
+   "linea": [
+    {
+     "f": "2024-11-04",
+     "es": "Segunda socialización de la obra con la comunidad.",
+     "en": "Second community presentation of the project."
+    }
+   ],
+   "preguntas": [
+    {
+     "es": "¿Cuánto costó y quién lo construyó?",
+     "en": "How much did it cost and who built it?"
+    },
+    {
+     "es": "¿Hace parte del mismo contrato de parques que El Palmar?",
+     "en": "Is it part of the same parks contract as El Palmar?"
+    }
+   ]
+  },
+  {
+   "id": "acueducto",
+   "nombre": {
+    "es": "Acueducto y alcantarillado",
+    "en": "Water and sewer system"
+   },
+   "lugar": {
+    "es": "Casco urbano",
+    "en": "Town center"
+   },
+   "estado": "investigada",
+   "valor": null,
+   "pagado": null,
+   "busca": "ACUEDUCTO",
+   "foto": null,
+   "resumen": {
+    "es": "La Procuraduría le formuló pliego de cargos al alcalde Jhoan Oderis Montes Cortés en abril de 2026 porque el convenio de 2024 para mejorar el acueducto y el alcantarillado se habría firmado por contratación directa, sin licitación. Un pliego de cargos no es una sanción.",
+    "en": "In April 2026 the Inspector General's Office filed disciplinary charges against Mayor Jhoan Oderis Montes Cortés because the 2024 agreement to upgrade the water and sewer system was allegedly signed without a public tender. Charges are not a sanction."
+   },
+   "fuente": {
+    "es": "Procuraduría General de la Nación y Blu Radio, abril de 2026.",
+    "en": "Inspector General's Office and Blu Radio, April 2026.",
+    "url": "https://www.bluradio.com/regiones/antioquia/formulan-cargos-contra-alcalde-de-caucasia-por-presuntas-irregularidades-en-un-contrato-rg10"
+   },
+   "linea": [
+    {
+     "f": "2024-01-01",
+     "es": "Jhoan Oderis Montes Cortés asume como alcalde.",
+     "en": "Jhoan Oderis Montes Cortés takes office as mayor."
+    },
+    {
+     "f": "2026-04-07",
+     "es": "La Procuraduría Provincial de Yarumal formula pliego de cargos por el convenio del acueducto.",
+     "en": "The Yarumal provincial office files charges over the water system agreement.",
+     "ojo": true
+    }
+   ],
+   "preguntas": [
+    {
+     "es": "¿Cuánto vale el convenio y cuánto se ha ejecutado?",
+     "en": "What is the agreement worth and how much has been executed?"
+    }
+   ]
+  }
+ ]
+}

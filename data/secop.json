@@ -1,0 +1,7 @@
+{
+ "hora": null,
+ "contratos": [],
+ "procesos": [],
+ "ok": false,
+ "_nota": "El robot llena este archivo cada 30 minutos con los contratos de obra pública de Caucasia que aparecen en datos.gov.co"
+}

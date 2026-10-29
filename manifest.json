@@ -1,0 +1,15 @@
+{
+  "name": "Veeduría Caucasia — Obras y parques al día",
+  "short_name": "Veeduría Caucasia",
+  "description": "Veeduría ciudadana a los parques y obras de Caucasia, Antioquia.",
+  "lang": "es-CO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#E6E6E1",
+  "theme_color": "#191E1B",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Veeduría Caucasia — Obras y parques al día</title>
+<meta name="description" content="Veeduría ciudadana a los parques y obras de Caucasia (Antioquia): cuánto se ha pagado, cómo van, qué preguntar y cómo pedir la información.">
+<meta name="theme-color" content="#1D2320">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta property="og:title" content="Veeduría Caucasia — Obras y parques al día">
+<meta property="og:description" content="Parque El Palmar: $744 de $936 millones pagados y la obra parada. Mire cómo van los parques y obras de Caucasia y pida cuentas.">
+<meta property="og:image" content="https://veeduria-obras-caucasia.netlify.app/img/compartir.jpg">
+<meta property="og:url" content="https://veeduria-obras-caucasia.netlify.app/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://veeduria-obras-caucasia.netlify.app/img/compartir.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --concreto:#E6E6E1;--losa:#F8F8F5;--asfalto:#191E1B;--gris:#5B625E;--linea:#CACBC5;
+  --naranja:#F25C05;--amarillo:#F2B705;--verde:#1E6B4A;--rojo:#C0362C;--azul:#1F5FA8;
+  --sombra:0 1px 0 rgba(25,30,27,.08),0 10px 28px -14px rgba(25,30,27,.35);
+}
+@media (prefers-color-scheme:dark){:root{--concreto:#141816;--losa:#1E2421;--asfalto:#EDEEEA;--gris:#A3AAA5;--linea:#353E39;--verde:#3FA57A;--rojo:#E8695F;--azul:#6FA3E0}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--concreto);color:var(--asfalto);font-family:"Archivo",system-ui,sans-serif;font-size:17px;line-height:1.5;padding-bottom:78px;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.num{font-variant-numeric:tabular-nums}
+.cinta{height:12px;background:repeating-linear-gradient(-45deg,var(--amarillo) 0 14px,#191E1B 14px 28px);background-size:40px 40px;animation:cinta 1.4s linear infinite}
+@keyframes cinta{to{background-position:40px 0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Barra de arriba */
+.top{position:sticky;top:0;z-index:20;background:#191E1B;color:#F2F2EE;display:flex;align-items:center;gap:10px;padding:10px 14px}
+.top b{font-variation-settings:"wdth" 75;font-size:19px;letter-spacing:.01em;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.top b span{color:var(--amarillo)}
+.btn{font:inherit;font-size:14px;font-weight:700;border:2px solid currentColor;background:transparent;color:inherit;border-radius:999px;padding:6px 14px;cursor:pointer;text-decoration:none;display:inline-block;line-height:1.2}
+.btn.lleno{background:var(--amarillo);border-color:var(--amarillo);color:#191E1B}
+.btn.naranja{background:var(--naranja);border-color:var(--naranja);color:#fff}
+.btn:disabled{opacity:.55}
+.girando{animation:pulso 1s ease-in-out infinite}
+@keyframes pulso{50%{opacity:.4}}
+
+/* Portada con fotos que se mueven */
+.portada{position:relative;min-height:78vh;color:#fff;overflow:hidden;display:flex;align-items:flex-end;background:#191E1B}
+.portada{background:radial-gradient(circle at 75% 20%,#2C3530 0%,#191E1B 55%,#0E110F 100%)}
+.docs{position:absolute;inset:0;overflow:hidden}
+.doc{position:absolute;width:min(46vw,360px);border-radius:6px;box-shadow:0 30px 60px -20px rgba(0,0,0,.8);transition:transform .8s ease,opacity .8s ease,filter .8s}
+.doc.d1{top:6%;right:6%;transform:rotate(7deg);animation:flota1 9s ease-in-out infinite}
+.doc.d2{top:16%;right:24%;transform:rotate(-6deg);animation:flota2 11s ease-in-out infinite}
+.doc.d3{top:28%;right:-4%;transform:rotate(14deg);animation:flota3 10s ease-in-out infinite}
+.doc.atras{filter:brightness(.45)}
+@keyframes flota1{50%{transform:rotate(5deg) translateY(-14px)}}
+@keyframes flota2{50%{transform:rotate(-8deg) translateY(12px)}}
+@keyframes flota3{50%{transform:rotate(12deg) translateY(-10px)}}
+.portada::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,17,15,.1) 0%,rgba(14,17,15,.35) 45%,rgba(14,17,15,.96) 100%)}
+@media(max-width:700px){.doc{width:62vw}.doc.d1{right:-6%}.doc.d2{right:22%}.doc.d3{right:-22%}}
+.galeria{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px}
+.galeria button{all:unset;cursor:pointer;display:block;border-radius:8px;overflow:hidden;background:#fff;aspect-ratio:3/4;box-shadow:0 8px 20px -10px #000;transition:transform .25s}
+.galeria button:hover{transform:translateY(-4px) rotate(-1deg)}
+.galeria img{width:100%;height:100%;object-fit:cover;object-position:top}
+.galeria small{display:block;font-size:12px;color:#BFC4C0;margin-top:4px;text-align:center}
+.visor{position:fixed;inset:0;z-index:50;background:rgba(10,12,11,.94);display:none;align-items:flex-start;justify-content:center;overflow:auto;padding:60px 12px 30px}
+.visor.ver{display:flex}
+.visor img{max-width:min(900px,100%);border-radius:6px}
+.visor button{position:fixed;top:12px;right:12px}
+.portada .dentro{position:relative;z-index:2;padding:22px 18px 26px;max-width:980px;width:100%;margin:0 auto}
+.sello{display:inline-block;background:var(--naranja);color:#fff;font-weight:800;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:4px;animation:titila 2.2s ease-in-out infinite}
+@keyframes titila{50%{background:var(--rojo)}}
+.portada h1{font-variation-settings:"wdth" 68;font-weight:900;font-size:clamp(42px,11vw,92px);line-height:.92;margin:12px 0 10px;letter-spacing:-.01em}
+.portada h1 em{font-style:normal;color:var(--amarillo);display:block}
+.portada p{font-size:19px;max-width:640px;margin:0 0 16px;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.portada .pie-foto{font-size:12px;opacity:.75;margin-top:12px}
+
+/* Cinta de titulares */
+.ticker{background:var(--amarillo);color:#191E1B;overflow:hidden;white-space:nowrap;font-weight:700;font-size:15px;border-block:2px solid #191E1B}
+.ticker .rueda{display:inline-block;padding:9px 0;animation:rueda 60s linear infinite}
+.ticker .rueda span{margin-right:44px}
+.ticker .rueda span::before{content:"";display:inline-block;width:9px;height:9px;background:var(--rojo);border-radius:50%;margin-right:10px;vertical-align:1px}
+@keyframes rueda{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+main{max-width:980px;margin:0 auto;padding:0 16px}
+section{padding:40px 0 10px}
+h2{font-variation-settings:"wdth" 72;font-weight:900;font-size:clamp(32px,7vw,48px);line-height:1;margin:0 0 8px;letter-spacing:-.005em}
+.bajada{color:var(--gris);margin:0 0 20px;max-width:680px}
+.panel{background:var(--losa);border-radius:14px;padding:18px;box-shadow:var(--sombra);margin-bottom:14px}
+.rejilla{display:grid;gap:14px}
+@media(min-width:760px){.rejilla.dos{grid-template-columns:1fr 1fr}.rejilla.tres{grid-template-columns:repeat(3,1fr)}}
+.etq{font-size:12px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--gris)}
+
+/* Hoy */
+.reloj{font-variation-settings:"wdth" 62;font-weight:900;font-size:clamp(50px,14vw,96px);line-height:.95;color:var(--rojo)}
+.reloj small{font-size:.32em;color:var(--asfalto);font-variation-settings:"wdth" 90;font-weight:700}
+.vivo{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--verde)}
+.vivo::before{content:"";width:9px;height:9px;border-radius:50%;background:currentColor;animation:latido 1.3s ease-in-out infinite}
+@keyframes latido{50%{transform:scale(1.7);opacity:.35}}
+.mini-lista{list-style:none;margin:0;padding:0}
+.mini-lista li{padding:10px 0;border-top:1px solid var(--linea)}
+.mini-lista li:first-child{border-top:0}
+.mini-lista a{text-decoration:none;font-weight:700}
+.mini-lista small{display:block;color:var(--gris);font-weight:400}
+.nuevo{background:var(--naranja);color:#fff;font-size:11px;font-weight:800;padding:2px 7px;border-radius:4px;margin-right:6px;letter-spacing:.05em;vertical-align:2px}
+.pregunta{font-variation-settings:"wdth" 80;font-size:24px;font-weight:800;line-height:1.2;margin:8px 0 0}
+
+/* Tarjetas de obra */
+.obras{display:grid;gap:18px}
+@media(min-width:760px){.obras{grid-template-columns:1fr 1fr}}
+.obra{background:var(--losa);border-radius:16px;overflow:hidden;box-shadow:var(--sombra);display:flex;flex-direction:column;transform:translateY(16px);opacity:0;transition:transform .6s ease,opacity .6s ease}
+.obra.entra{transform:none;opacity:1}
+.obra .cara{height:190px;position:relative;background:#191E1B;overflow:hidden}
+.obra .cara img{width:100%;height:100%;object-fit:cover;transition:transform 6s ease}
+.obra:hover .cara img{transform:scale(1.08)}
+.obra .valla{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:18px;color:#F2F2EE;background:linear-gradient(135deg,#232A26,#121513)}
+.obra .valla::before{content:"";position:absolute;left:0;right:0;top:0;height:10px;background:repeating-linear-gradient(-45deg,var(--amarillo) 0 12px,#191E1B 12px 24px)}
+.obra .valla .grande{font-variation-settings:"wdth" 62;font-weight:900;font-size:48px;line-height:1;color:var(--amarillo)}
+.obra .valla .peq{font-size:14px;opacity:.8}
+.chip{position:absolute;top:14px;right:14px;z-index:2;font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:5px 10px;border-radius:4px;color:#fff}
+.chip.suspendida{background:var(--rojo);animation:titila2 2s ease-in-out infinite}
+@keyframes titila2{50%{box-shadow:0 0 0 6px rgba(192,54,44,.35)}}
+.chip.en-plazo{background:var(--verde)}
+.chip.investigada{background:var(--naranja)}
+.chip.por-verificar{background:#6B716D}
+.obra .cuerpo{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.obra h3{font-variation-settings:"wdth" 75;font-weight:900;font-size:26px;line-height:1.05;margin:0}
+.obra .lugar{color:var(--gris);font-size:14px;margin-top:-6px}
+.barra{height:14px;border-radius:999px;background:var(--linea);overflow:hidden;position:relative}
+.barra i{position:absolute;inset:0 auto 0 0;width:0;background:linear-gradient(90deg,var(--naranja),var(--rojo));border-radius:999px;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.barra.verde i{background:linear-gradient(90deg,#2E8B5E,var(--verde))}
+.barra-txt{display:flex;justify-content:space-between;font-size:14px;color:var(--gris);margin-top:4px}
+.acciones{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:4px}
+.acciones .btn{color:var(--asfalto)}
+.detalle{display:none;border-top:1px solid var(--linea);padding-top:12px}
+.detalle.abierto{display:block;animation:baja .35s ease}
+@keyframes baja{from{opacity:0;transform:translateY(-6px)}}
+.fuente{font-size:13px;color:var(--gris)}
+
+/* Línea de tiempo */
+.tiempo{list-style:none;margin:8px 0 0;padding:0 0 0 18px;border-left:3px solid var(--linea)}
+.tiempo li{position:relative;padding:0 0 14px 6px}
+.tiempo li::before{content:"";position:absolute;left:-27px;top:5px;width:13px;height:13px;border-radius:50%;background:var(--losa);border:3px solid var(--gris)}
+.tiempo li.ojo::before{border-color:var(--rojo);background:var(--rojo)}
+.tiempo li.futuro{opacity:.6}
+.tiempo b{display:block;font-size:14px}
+
+/* El Palmar */
+.palmar{background:#191E1B;color:#F2F2EE;border-radius:18px;overflow:hidden;box-shadow:var(--sombra)}
+.palmar .cabeza{padding:22px 20px 6px}
+.palmar h2{color:#fff}
+.palmar .bajada{color:#BFC4C0}
+.cifras{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#333B37;margin-top:10px}
+.cifras div{background:#191E1B;padding:16px 12px}
+.cifras b{display:block;font-variation-settings:"wdth" 62;font-weight:900;font-size:clamp(30px,8vw,54px);line-height:1;color:var(--amarillo)}
+.cifras b.rojo{color:#FF7A6E}
+.cifras span{font-size:13px;color:#BFC4C0}
+.medidor{padding:18px 20px}
+.medidor .barra{height:30px;background:#333B37}
+.medidor .barra i{background:repeating-linear-gradient(-45deg,var(--naranja) 0 14px,#D94E04 14px 28px)}
+.medidor .marca{position:absolute;top:0;bottom:0;width:3px;background:#fff;left:0;transition:left 1.6s}
+.nocuadra{margin:0 20px 20px;border:2px solid var(--amarillo);border-radius:12px;padding:14px 16px}
+.nocuadra p{margin:6px 0 0}
+.palmar .tiempo{border-color:#333B37}
+.palmar .tiempo li::before{background:#191E1B;border-color:#7A817D}
+.palmar .tiempo li.ojo::before{background:#FF7A6E;border-color:#FF7A6E}
+.palmar .pre{padding:0 20px 20px}
+.palmar .pre ol{margin:8px 0 0;padding-left:22px}
+.palmar .pre li{margin-bottom:6px}
+.palmar .btn{color:#F2F2EE}
+
+/* SECOP y noticias */
+.buscar{width:100%;font:inherit;font-size:17px;padding:12px 16px;border-radius:12px;border:2px solid var(--linea);background:var(--losa);color:var(--asfalto);margin-bottom:14px}
+.buscar:focus{outline:none;border-color:var(--naranja)}
+.contrato{padding:14px 0;border-top:1px solid var(--linea)}
+.contrato:first-child{border-top:0}
+.contrato.destacado{background:linear-gradient(90deg,rgba(242,92,5,.12),transparent);margin:0 -18px;padding:14px 18px}
+.contrato .obj{font-weight:700;line-height:1.3}
+.contrato .meta{font-size:14px;color:var(--gris);margin-top:4px}
+.alerta{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;background:var(--rojo);color:#fff;padding:2px 7px;border-radius:4px;margin-right:6px}
+.alerta.amarilla{background:var(--amarillo);color:#191E1B}
+.noticias{display:grid;gap:12px}
+@media(min-width:760px){.noticias{grid-template-columns:1fr 1fr}}
+.noticia{display:flex;gap:12px;background:var(--losa);border-radius:12px;padding:12px;box-shadow:var(--sombra);text-decoration:none;transition:transform .2s}
+.noticia:hover{transform:translateY(-2px)}
+.noticia img,.noticia .sin{width:96px;height:96px;flex:0 0 96px;border-radius:8px;object-fit:cover;background:repeating-linear-gradient(-45deg,#2A312D 0 10px,#232A26 10px 20px)}
+.noticia .sin{display:flex;align-items:center;justify-content:center;color:var(--amarillo);font-weight:900;font-variation-settings:"wdth" 62;font-size:13px;text-align:center;padding:6px;text-transform:uppercase;line-height:1.1}
+.noticia b{display:block;line-height:1.25;font-size:16px}
+.noticia small{color:var(--gris)}
+
+/* Formularios */
+label{display:block;font-weight:700;font-size:14px;margin:10px 0 4px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:10px 12px;border-radius:10px;border:2px solid var(--linea);background:var(--concreto);color:var(--asfalto)}
+textarea{min-height:90px}
+.carta{white-space:pre-wrap;background:var(--concreto);border-radius:10px;padding:14px;font-size:15px;max-height:360px;overflow:auto;border:1px dashed var(--linea)}
+.fila{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.fila .btn{color:var(--asfalto)}
+
+/* Navegación de abajo (solo texto) */
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#191E1B;display:flex;justify-content:space-around;padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
+.nav a{color:#C9CDC9;text-decoration:none;font-size:13px;font-weight:700;padding:8px 6px;border-radius:8px;text-transform:uppercase;letter-spacing:.04em}
+.nav a.act{color:#191E1B;background:var(--amarillo)}
+.aviso{position:fixed;left:50%;bottom:86px;transform:translate(-50%,20px);background:#191E1B;color:#fff;padding:10px 16px;border-radius:10px;font-size:15px;opacity:0;pointer-events:none;transition:.3s;z-index:40;max-width:90vw;text-align:center}
+.aviso.ver{opacity:1;transform:translate(-50%,0)}
+footer{max-width:980px;margin:30px auto 0;padding:20px 16px 30px;font-size:14px;color:var(--gris)}
+footer b{color:var(--asfalto)}
+.reparto{display:flex;height:34px;border-radius:8px;overflow:hidden;margin:10px 0 8px}
+.reparto i{display:block;height:100%;width:0;transition:width 1.4s cubic-bezier(.2,.8,.2,1)}
+.leyenda{display:grid;gap:6px;font-size:14px}
+.leyenda div{display:flex;gap:8px;align-items:baseline}
+.leyenda b{min-width:118px;font-variant-numeric:tabular-nums;color:#fff}
+.leyenda s{display:inline-block;width:12px;height:12px;border-radius:3px;text-decoration:none;flex:0 0 12px}
+.hallazgo{background:#232A26;border-radius:12px;padding:14px 16px;margin-bottom:10px;border-left:5px solid var(--naranja);opacity:0;transform:translateX(-12px);transition:.5s}
+.hallazgo.entra{opacity:1;transform:none}
+.hallazgo b{color:var(--amarillo);font-variation-settings:"wdth" 70;font-size:20px;display:block;margin-bottom:2px}
+</style>
+</head>
+<body>
+<div class="top">
+  <b><span>Veeduría</span> Caucasia</b>
+  <button class="btn" id="btnLang" style="color:#F2F2EE" aria-label="Language">EN</button>
+  <button class="btn lleno" id="btnRef" data-t="actualizar">Actualizar</button>
+</div>
+
+<header class="portada" id="portada">
+  <div class="docs" aria-hidden="true">
+    <img class="doc d1" src="img/docs/contrato.jpg" alt="">
+    <img class="doc d2" src="img/docs/presupuesto.jpg" alt="">
+    <img class="doc d3" src="img/docs/cdp.jpg" alt="">
+  </div>
+  <div class="dentro">
+    <span class="sello" data-t="sello">Veeduría ciudadana</span>
+    <h1><span data-t="h1a">¿Qué chicharrón</span><em data-t="h1b">con los parques?</em></h1>
+    <p data-t="portadaP">Cuánta plata se ha pagado, cómo van las obras de Caucasia y qué preguntar. Hecho por la gente, con documentos públicos.</p>
+    <div class="fila">
+      <a class="btn naranja" href="#palmar" data-t="verPalmar">Ver el caso El Palmar</a>
+      <a class="btn" href="#actue" style="color:#fff" data-t="pedirCuentas">Pedir cuentas</a>
+    </div>
+    <div class="pie-foto" data-t="pieFoto">Documentos reales del SECOP II: contrato CI-022-2025, presupuesto oficial y CDP 01205 del Parque El Palmar.</div>
+  </div>
+</header>
+<div class="cinta"></div>
+<div class="ticker" aria-hidden="true"><div class="rueda" id="rueda"></div></div>
+
+<main>
+  <!-- HOY -->
+  <section id="hoy">
+    <h2 data-t="hHoy">Hoy</h2>
+    <p class="bajada" id="hoyFecha"></p>
+    <div class="rejilla dos">
+      <div class="panel">
+        <div class="etq" data-t="palmarParado">El Palmar lleva parado</div>
+        <div class="reloj num" id="relojPalmar">–</div>
+        <div id="relojDetalle" style="font-size:15px;color:var(--gris)"></div>
+        <div style="margin-top:14px" class="etq" data-t="trianguloVa">Parque Lineal El Triángulo</div>
+        <div id="trianguloHoy" style="font-weight:700"></div>
+        <div class="barra verde" style="margin-top:6px"><i id="barTriangulo"></i></div>
+      </div>
+      <div class="panel">
+        <div class="vivo" id="estadoVivo" data-t="buscando">Buscando noticias…</div>
+        <ul class="mini-lista" id="hoyNoticias" style="margin-top:8px"></ul>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="etq" data-t="preguntaDia">La pregunta de hoy</div>
+      <p class="pregunta" id="preguntaDia"></p>
+      <div class="fila"><a class="btn" id="preguntaWa" target="_blank" rel="noopener" data-t="preguntarWa">Hacerla por WhatsApp</a></div>
+    </div>
+  </section>
+
+  <!-- OBRAS -->
+  <section id="obras">
+    <h2 data-t="hObras">Las obras</h2>
+    <p class="bajada" data-t="obrasBajada">Cada tarjeta dice cuánto vale, cuánto se ha pagado y en qué va. Toque "Ver más" para la historia y las preguntas.</p>
+    <div class="obras" id="listaObras"></div>
+  </section>
+
+  <!-- EL PALMAR -->
+  <section id="palmar">
+    <div class="palmar">
+      <div class="cinta"></div>
+      <div class="cabeza">
+        <span class="sello" data-t="selloPalmar">Obra parada</span>
+        <h2 style="margin-top:10px" data-t="hPalmar">Parque El Palmar</h2>
+        <p class="bajada" data-t="palmarBajada">La plata casi toda pagada. El parque sin terminar. Y ahora piden más.</p>
+      </div>
+      <div class="cifras">
+        <div><b class="num" data-contar="936">0</b><span data-t="cValor">millones vale el contrato</span></div>
+        <div><b class="num rojo" data-contar="744">0</b><span data-t="cPagado">millones ya pagados</span></div>
+        <div><b class="num" data-contar="192">0</b><span data-t="cFalta">millones quedan por pagar</span></div>
+      </div>
+      <div class="medidor">
+        <div class="etq" style="color:#BFC4C0" data-t="medidorEtq">De cada 100 pesos del contrato ya se pagaron</div>
+        <div style="font-variation-settings:'wdth' 62;font-weight:900;font-size:64px;line-height:1;color:#FF7A6E" class="num"><span data-contar="79.5" data-dec="1">0</span>%</div>
+        <div class="barra" style="margin-top:8px"><i id="barPalmar"></i></div>
+      </div>
+      <div class="nocuadra">
+        <b data-t="noCuadraT">Esto no cuadra</b>
+        <p data-t="noCuadraP">Si ya se pagó casi el 80% del contrato, la obra debería estar casi lista. Está parada desde el 20 de julio, ya se pasaron dos fechas de entrega y el contratista dice que con lo que falta no le alcanza. Alguien tiene que explicar qué se hizo con los $744 millones.</p>
+      </div>
+      <div class="pre">
+        <div class="etq" style="color:#BFC4C0" data-t="aDonde">A dónde va la plata del proyecto</div>
+        <div class="reparto" id="reparto"></div>
+        <div class="leyenda" id="leyenda"></div>
+        <p style="margin:14px 0 0;color:#DADDDA" id="palmarPago"></p>
+      </div>
+      <div class="pre">
+        <div class="etq" style="color:#BFC4C0;margin-bottom:8px" data-t="documentosDicen">Lo que dicen los documentos del SECOP</div>
+        <div id="hallazgos"></div>
+        <div class="etq" style="color:#BFC4C0;margin-top:14px" data-t="verDocs">Véalos usted mismo</div>
+        <div class="galeria" id="galeria">
+          <div><button data-doc="img/docs/contrato.jpg"><img src="img/docs/contrato.jpg" alt="Contrato CI-022-2025" loading="lazy"></button><small>CI-022-2025</small></div>
+          <div><button data-doc="img/docs/presupuesto.jpg"><img src="img/docs/presupuesto.jpg" alt="Presupuesto oficial" loading="lazy"></button><small data-t="gPresu">Presupuesto</small></div>
+          <div><button data-doc="img/docs/cdp.jpg"><img src="img/docs/cdp.jpg" alt="CDP 01205" loading="lazy"></button><small>CDP 01205</small></div>
+          <div><button data-doc="img/docs/aviso.jpg"><img src="img/docs/aviso.jpg" alt="Aviso MN-022-2025" loading="lazy"></button><small>MN-022-2025</small></div>
+        </div>
+      </div>
+      <div class="pre">
+        <div class="etq" style="color:#BFC4C0" data-t="fechaFecha">Fecha por fecha</div>
+        <ol class="tiempo" id="palmarTiempo"></ol>
+        <div class="etq" style="color:#BFC4C0;margin-top:10px" data-t="preguntasEtq">Lo que hay que preguntar</div>
+        <ol id="palmarPreguntas"></ol>
+        <div class="etq" style="color:#BFC4C0;margin-top:10px" data-t="enSecop">En el SECOP II</div>
+        <div id="palmarSecop"></div>
+        <p class="fuente" style="color:#9AA19C" id="palmarFuente"></p>
+        <div class="fila">
+          <a class="btn naranja" href="#actue" data-obra="palmar" data-t="pedirInfo">Pedir la información</a>
+          <a class="btn" id="palmarWa" target="_blank" rel="noopener" data-t="compartir">Compartir</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECOP -->
+  <section id="secop">
+    <h2 data-t="hSecop">Los contratos en el SECOP</h2>
+    <p class="bajada" data-t="secopBajada">Contratos de obra pública de Caucasia en los datos abiertos de Colombia Compra Eficiente. Se buscan cada vez que usted abre la app y el robot los revisa cada 30 minutos.</p>
+    <input class="buscar" id="buscarSecop" type="search" data-ph="buscarSecopPh" placeholder="Buscar: palmar, parque, contratista…">
+    <div class="panel">
+      <div class="vivo" id="secopEstado" data-t="secopBuscando">Consultando el SECOP…</div>
+      <div id="secopLista" style="margin-top:8px"></div>
+    </div>
+  </section>
+
+  <!-- NOTICIAS -->
+  <section id="noticias">
+    <h2 data-t="hNoticias">Noticias</h2>
+    <p class="bajada" id="noticiasBajada"></p>
+    <input class="buscar" id="buscarNoticias" type="search" data-ph="buscarNotPh" placeholder="Buscar en las noticias…">
+    <div class="noticias" id="listaNoticias"></div>
+  </section>
+
+  <!-- ACTÚE -->
+  <section id="actue">
+    <h2 data-t="hActue">Pida cuentas</h2>
+    <p class="bajada" data-t="actueBajada">Cualquier persona puede pedir los documentos de una obra pública. La Alcaldía tiene 10 días hábiles para entregar documentos y 15 para responder preguntas (Ley 1755 de 2015).</p>
+    <div class="rejilla dos">
+      <div class="panel">
+        <div class="etq" data-t="peticionEtq">Derecho de petición listo</div>
+        <label for="pObra" data-t="lObra">Obra</label>
+        <select id="pObra"></select>
+        <label for="pNombre" data-t="lNombre">Su nombre</label>
+        <input id="pNombre" autocomplete="name">
+        <label for="pCedula" data-t="lCedula">Cédula</label>
+        <input id="pCedula" inputmode="numeric">
+        <label for="pBarrio" data-t="lBarrio">Barrio y dirección</label>
+        <input id="pBarrio" autocomplete="street-address">
+        <label for="pCorreo" data-t="lCorreo">Correo para la respuesta</label>
+        <input id="pCorreo" type="email" autocomplete="email">
+      </div>
+      <div class="panel">
+        <div class="etq" data-t="cartaEtq">Su carta</div>
+        <div class="carta" id="carta"></div>
+        <div class="fila">
+          <button class="btn" id="copiar" data-t="copiar">Copiar</button>
+          <a class="btn" id="cartaWa" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn" id="cartaMail" data-t="correo">Correo</a>
+        </div>
+        <p class="fuente" data-t="dondeRadicar">Radíquela en la ventanilla de la Alcaldía o por el correo de atención al ciudadano que aparece en caucasia-antioquia.gov.co. Guarde el número de radicado. Si no responden a tiempo, puede poner una tutela.</p>
+      </div>
+    </div>
+
+    <div class="rejilla dos">
+      <div class="panel">
+        <div class="etq" data-t="reporteEtq">Reporte lo que vio</div>
+        <p style="margin:6px 0 0" data-t="reporteP">¿Pasó por una obra? Cuéntenos si había trabajadores, valla, maquinaria o si está abandonada. Lo publicamos en la app.</p>
+        <label for="rObra" data-t="lObra">Obra</label>
+        <select id="rObra"></select>
+        <label for="rQue" data-t="lQue">¿Qué vio?</label>
+        <select id="rQue"></select>
+        <label for="rNota" data-t="lNota">Detalle (fecha, hora, qué notó)</label>
+        <textarea id="rNota"></textarea>
+        <div class="fila"><a class="btn naranja" id="rEnviar" target="_blank" rel="noopener" data-t="enviarReporte">Enviar por WhatsApp</a></div>
+        <p class="fuente" data-t="reporteFoto">Si tiene foto o video, adjúntelo en el chat de WhatsApp.</p>
+      </div>
+      <div class="panel">
+        <div class="etq" data-t="comoEtq">Cómo se hace una veeduría</div>
+        <ol style="padding-left:20px;margin:8px 0 0" id="comoLista"></ol>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p><b data-t="pieB">App ciudadana de Vibras Positivas HM.</b> <span data-t="pie1">No es una página oficial de la Alcaldía de Caucasia. Las cifras del Parque El Palmar vienen de una denuncia pública en video y hay que confirmarlas con el contrato. Los pliegos de cargos no son sanciones: toda persona se presume inocente.</span></p>
+  <p><span data-t="pie2">Comparta la app:</span> <a href="https://veeduria-obras-caucasia.netlify.app/">veeduria-obras-caucasia.netlify.app</a></p>
+  <p id="pieHora"></p>
+</footer>
+
+<nav class="nav" id="nav">
+  <a href="#hoy" data-t="tHoy">Hoy</a>
+  <a href="#obras" data-t="tObras">Obras</a>
+  <a href="#palmar" data-t="tPalmar">Palmar</a>
+  <a href="#secop" data-t="tSecop">SECOP</a>
+  <a href="#noticias" data-t="tNoticias">Noticias</a>
+  <a href="#actue" data-t="tActue">Actúe</a>
+</nav>
+<div class="aviso" id="aviso" role="status"></div>
+<div class="visor" id="visor"><button class="btn lleno" id="cerrarVisor" data-t="cerrar">Cerrar</button><img id="visorImg" alt=""></div>
+
+<script>
+"use strict";
+const TZ = "America/Bogota";
+const WA_HAROLD = "573117700431";
+const URL_APP = "https://veeduria-obras-caucasia.netlify.app/";
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const guardar = (k,v) => { try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} };
+const leer = (k,d) => { try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } };
+
+/* ===== Idioma ===== */
+let LANG = leer("vc_lang", (navigator.language||"es").startsWith("en") ? "en" : "es");
+const L = (es,en) => LANG === "en" ? en : es;
+const T = o => o ? (LANG === "en" ? (o.en || o.es) : o.es) : "";
+const TXT = {
+  actualizar:["Actualizar","Refresh"], sello:["Veeduría ciudadana","Citizen watchdog"],
+  h1a:["¿Qué chicharrón","What a mess"], h1b:["con los parques?","with the parks"],
+  portadaP:["Cuánta plata se ha pagado, cómo van las obras de Caucasia y qué preguntar. Hecho por la gente, con documentos públicos.","How much money has been paid, how Caucasia's public works are going, and what to ask. Made by citizens, with public records."],
+  verPalmar:["Ver el caso El Palmar","See the El Palmar case"], pedirCuentas:["Pedir cuentas","Demand answers"],
+  pieFoto:["Documentos reales del SECOP II: contrato CI-022-2025, presupuesto oficial y CDP 01205 del Parque El Palmar.","Real SECOP II records: contract CI-022-2025, official budget and budget certificate 01205 for El Palmar Park."], verDocs:["Véalos usted mismo","See them yourself"], gPresu:["Presupuesto","Budget"], cerrar:["Cerrar","Close"],
+  hHoy:["Hoy","Today"], palmarParado:["El Palmar lleva parado","El Palmar has been stopped for"], trianguloVa:["Parque Lineal El Triángulo","El Triángulo Linear Park"],
+  buscando:["Buscando noticias…","Looking for news…"], preguntaDia:["La pregunta de hoy","Today's question"], preguntarWa:["Hacerla por WhatsApp","Ask it on WhatsApp"],
+  hObras:["Las obras","The projects"], obrasBajada:["Cada tarjeta dice cuánto vale, cuánto se ha pagado y en qué va. Toque \"Ver más\" para la historia y las preguntas.","Each card shows the value, how much has been paid and where it stands. Tap \"More\" for the story and the questions."],
+  selloPalmar:["Obra parada","Works stopped"], hPalmar:["Parque El Palmar","El Palmar Park"], palmarBajada:["La plata casi toda pagada. El parque sin terminar. Y ahora piden más.","Almost all the money paid. The park unfinished. And now they want more."],
+  cValor:["millones vale el contrato","million: contract value"], cPagado:["millones ya pagados","million already paid"], cFalta:["millones quedan por pagar","million left to pay"],
+  medidorEtq:["De cada 100 pesos del contrato ya se pagaron","Out of every 100 pesos in the contract, already paid"],
+  noCuadraT:["Esto no cuadra","This doesn't add up"],
+  noCuadraP:["Si ya se pagó casi el 80% del contrato, la obra debería estar casi lista. Está parada desde el 20 de julio, ya se pasaron dos fechas de entrega y el contratista dice que con lo que falta no le alcanza. Alguien tiene que explicar qué se hizo con los $744 millones.","If almost 80% of the contract has been paid, the park should be nearly done. It has been stopped since July 20, two delivery dates have passed, and the contractor says what is left won't be enough. Someone has to explain what happened to the 744 million pesos."],
+  fechaFecha:["Fecha por fecha","Date by date"], preguntasEtq:["Lo que hay que preguntar","What to ask"], enSecop:["En el SECOP II","On SECOP II"], aDonde:["A dónde va la plata del proyecto","Where the project money goes"], documentosDicen:["Lo que dicen los documentos del SECOP","What the SECOP records say"], pedirInfo:["Pedir la información","Request the records"], compartir:["Compartir","Share"],
+  hSecop:["Los contratos en el SECOP","Contracts on SECOP"], secopBajada:["Contratos de obra pública de Caucasia en los datos abiertos de Colombia Compra Eficiente. Se buscan cada vez que usted abre la app y el robot los revisa cada 30 minutos.","Caucasia public works contracts from Colombia Compra Eficiente open data. They are searched every time you open the app, and the robot checks them every 30 minutes."],
+  buscarSecopPh:["Buscar: palmar, parque, contratista…","Search: palmar, park, contractor…"], secopBuscando:["Consultando el SECOP…","Checking SECOP…"],
+  hNoticias:["Noticias","News"], buscarNotPh:["Buscar en las noticias…","Search the news…"],
+  hActue:["Pida cuentas","Demand answers"], actueBajada:["Cualquier persona puede pedir los documentos de una obra pública. La Alcaldía tiene 10 días hábiles para entregar documentos y 15 para responder preguntas (Ley 1755 de 2015).","Anyone can request the records of a public works project. The Mayor's office has 10 business days to hand over documents and 15 to answer questions (Law 1755 of 2015)."],
+  peticionEtq:["Derecho de petición listo","Ready-made petition"], lObra:["Obra","Project"], lNombre:["Su nombre","Your name"], lCedula:["Cédula","ID number"], lBarrio:["Barrio y dirección","Neighborhood and address"], lCorreo:["Correo para la respuesta","Email for the reply"],
+  cartaEtq:["Su carta","Your letter"], copiar:["Copiar","Copy"], correo:["Correo","Email"],
+  dondeRadicar:["Radíquela en la ventanilla de la Alcaldía o por el correo de atención al ciudadano que aparece en caucasia-antioquia.gov.co. Guarde el número de radicado. Si no responden a tiempo, puede poner una tutela.","File it at the Mayor's office front desk or through the citizen service email listed on caucasia-antioquia.gov.co. Keep the filing number. If they don't answer on time, you can file a tutela (constitutional claim)."],
+  reporteEtq:["Reporte lo que vio","Report what you saw"], reporteP:["¿Pasó por una obra? Cuéntenos si había trabajadores, valla, maquinaria o si está abandonada. Lo publicamos en la app.","Did you pass by a project? Tell us if there were workers, a billboard, machinery, or if it's abandoned. We'll post it in the app."],
+  lQue:["¿Qué vio?","What did you see?"], lNota:["Detalle (fecha, hora, qué notó)","Details (date, time, what you noticed)"], enviarReporte:["Enviar por WhatsApp","Send on WhatsApp"], reporteFoto:["Si tiene foto o video, adjúntelo en el chat de WhatsApp.","If you have a photo or video, attach it in the WhatsApp chat."],
+  comoEtq:["Cómo se hace una veeduría","How citizen oversight works"],
+  pieB:["App ciudadana de Vibras Positivas HM.","A citizen app by Vibras Positivas HM."],
+  pie1:["No es una página oficial de la Alcaldía de Caucasia. Las cifras del Parque El Palmar vienen de una denuncia pública en video y hay que confirmarlas con el contrato. Los pliegos de cargos no son sanciones: toda persona se presume inocente.","This is not an official page of the Caucasia Mayor's office. The El Palmar Park figures come from a public video complaint and must be confirmed against the contract. Disciplinary charges are not sanctions: everyone is presumed innocent."],
+  pie2:["Comparta la app:","Share the app:"],
+  tHoy:["Hoy","Today"], tObras:["Obras","Works"], tPalmar:["Palmar","Palmar"], tSecop:["SECOP","SECOP"], tNoticias:["Noticias","News"], tActue:["Actúe","Act"]
+};
+const ESTADOS = {"suspendida":["Suspendida","Suspended"],"en-plazo":["En plazo","On schedule"],"investigada":["Investigada","Under investigation"],"por-verificar":["Por verificar","To be verified"]};
+const QUE_VIO = [["nadie","No había nadie trabajando","Nobody was working"],["trabajando","Había gente trabajando","People were working"],["sinvalla","No hay valla de obra","No works billboard"],["abandono","Se ve abandonada o deteriorada","It looks abandoned or run down"],["maquinaria","Había maquinaria","There was machinery"],["otro","Otra cosa","Something else"]];
+const COMO = [
+  ["Pida los documentos con el derecho de petición de esta app. Es gratis y no necesita abogado.","Request the records with this app's petition. It's free and you don't need a lawyer."],
+  ["Revise el contrato en el SECOP II: valor, plazo, contratista, interventoría y pólizas.","Check the contract on SECOP II: value, term, contractor, oversight firm and bonds."],
+  ["Visite la obra y deje constancia con fecha, hora y fotos. Mande su reporte aquí.","Visit the site and record date, time and photos. Send your report here."],
+  ["Si se juntan varios vecinos, pueden inscribirse como veeduría ciudadana ante la Personería de Caucasia (Ley 850 de 2003).","If several neighbors get together, they can register as a citizen oversight committee with the Caucasia Ombudsman's office (Law 850 of 2003)."],
+  ["Si algo no cuadra, lleve los documentos a la Personería, a la Contraloría General de Antioquia y a la Procuraduría. El Concejo Municipal también puede citar a debate de control.","If something doesn't add up, take the records to the Ombudsman's office, the Antioquia Comptroller and the Inspector General's office. The Municipal Council can also call an oversight hearing."]
+];
+
+function traducir(){
+  document.documentElement.lang = LANG;
+  document.querySelectorAll("[data-t]").forEach(el => { const t = TXT[el.dataset.t]; if (t) el.textContent = L(t[0], t[1]); });
+  document.querySelectorAll("[data-ph]").forEach(el => { const t = TXT[el.dataset.ph]; if (t) el.placeholder = L(t[0], t[1]); });
+  $("#btnLang").textContent = LANG === "en" ? "ES" : "EN";
+}
+
+/* ===== Fechas en hora de Colombia ===== */
+const ahora = () => new Date();
+const diaCO = d => new Date(d).toLocaleDateString("en-CA",{timeZone:TZ});
+const bogotaMs = s => new Date(s + "T00:00:00-05:00").getTime();
+const fechaLarga = s => new Intl.DateTimeFormat(LANG==="en"?"en-US":"es-CO",{timeZone:TZ,day:"numeric",month:"long",year:"numeric"}).format(new Date(s.length===10 ? s+"T12:00:00-05:00" : s));
+const plata = n => n==null ? "–" : "$" + Math.round(n).toLocaleString("es-CO");
+const millones = n => n==null ? "–" : "$" + (n/1e6).toLocaleString(LANG==="en"?"en-US":"es-CO",{maximumFractionDigits:0}) + L(" millones"," million");
+function hace(iso){
+  const min = Math.round((Date.now() - new Date(iso))/60000);
+  if (min < 60) return L(`hace ${Math.max(min,1)} min`, `${Math.max(min,1)} min ago`);
+  const h = Math.round(min/60); if (h < 24) return L(`hace ${h} h`, `${h} h ago`);
+  const d = Math.round(h/24); if (d < 60) return L(`hace ${d} día${d>1?"s":""}`, `${d} day${d>1?"s":""} ago`);
+  return fechaLarga(iso);
+}
+function aviso(t){ const a=$("#aviso"); a.textContent=t; a.classList.add("ver"); clearTimeout(a._t); a._t=setTimeout(()=>a.classList.remove("ver"),2600); }
+
+/* ===== Datos ===== */
+let OBRAS = leer("vc_obras", null);
+let NOTICIAS = leer("vc_noticias", {actualizado:null, noticias:[]});
+let SECOP = leer("vc_secop", {hora:null, contratos:[], procesos:[]});
+let SECOP_VIVO = [];
+const ultimaVisita = leer("vc_visita", null);
+guardar("vc_visita", new Date().toISOString());
+
+async function json(url){ const r = await fetch(`${url}?t=${Date.now()}`, {cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json(); }
+
+/* Búsqueda en vivo de noticias (GDELT) al abrir la app */
+const LUGAR = /caucasia/i;
+const TEMA = /parque|obra|contrat|palmar|acueducto|alcantarill|puente|procurad|contralor|fiscal|veedur|alcald|licitac|regal|millones|eduan|malec|cancha|coliseo/i;
+async function noticiasEnVivo(){
+  const q = encodeURIComponent('Caucasia (parque OR obra OR contrato OR alcaldía OR acueducto)');
+  const u = `https://api.gdeltproject.org/api/v2/doc/doc?query=${q}&mode=artlist&format=json&maxrecords=60&sort=datedesc&timespan=14d&sourcecountry=CO`;
+  try{
+    const ctl = new AbortController(); setTimeout(()=>ctl.abort(), 9000);
+    const r = await fetch(u, {signal:ctl.signal, cache:"no-store"}); if(!r.ok) return [];
+    const j = JSON.parse(await r.text());
+    return (j.articles||[]).map(a => { const m = String(a.seendate||"").match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/);
+      return {titulo:a.title, url:a.url, fuente:String(a.domain||"").replace(/^www\./,""), fecha: m?`${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}Z`:null, imagen:a.socialimage||null, vivo:true}; })
+      .filter(n => n.titulo && n.fecha && LUGAR.test(n.titulo) && TEMA.test(n.titulo));
+  }catch(e){ return []; }
+}
+const claveT = t => String(t).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g,"").slice(0,70);
+function unirNoticias(extra){
+  const vistos = new Set(NOTICIAS.noticias.map(n => claveT(n.titulo)));
+  let nuevas = 0;
+  for (const n of extra){ const k = claveT(n.titulo); if (vistos.has(k)) continue; vistos.add(k); NOTICIAS.noticias.push(n); nuevas++; }
+  NOTICIAS.noticias.sort((a,b) => new Date(b.fecha) - new Date(a.fecha));
+  return nuevas;
+}
+
+/* SECOP en vivo desde datos.gov.co */
+async function secopEnVivo(){
+  const out = [];
+  const consultas = ["PALMAR CAUCASIA","PARQUE CAUCASIA","EDURHABA PALMAR"];
+  for (const q of consultas){
+    try{
+      const ctl = new AbortController(); setTimeout(()=>ctl.abort(), 15000);
+      const r = await fetch(`https://www.datos.gov.co/resource/jbjy-vk9h.json?$q=${encodeURIComponent(q)}&$limit=100`, {signal:ctl.signal});
+      if (!r.ok) continue;
+      for (const o of await r.json()){
+        const s = JSON.stringify(o).toUpperCase();
+        if (!s.includes("CAUCASIA") && !(s.includes("EDURHABA") && s.includes("PALMAR"))) continue;
+        const u = o.urlproceso;
+        out.push({tipo:"contrato", id:o.id_contrato||o.referencia_del_contrato, entidad:o.nombre_entidad, objeto:o.objeto_del_contrato||o.descripcion_del_proceso||"",
+          contratista:o.proveedor_adjudicado, valor:+o.valor_del_contrato||null, pagado:+o.valor_pagado||null, facturado:+o.valor_facturado||null, estado:o.estado_contrato,
+          inicio:(o.fecha_de_inicio_del_contrato||"").slice(0,10)||null, fin:(o.fecha_de_fin_del_contrato||"").slice(0,10)||null, firma:(o.fecha_de_firma||"").slice(0,10)||null,
+          diasAdicionados:+o.dias_adicionados||0, url: u && typeof u==="object" ? u.url : u});
+      }
+    }catch(e){}
+  }
+  return out;
+}
+
+/* ===== Pintar: Hoy ===== */
+function obra(id){ return (OBRAS?.obras||[]).find(o => o.id === id); }
+function pintarReloj(){
+  const p = obra("palmar"); const t = obra("triangulo");
+  const now = Date.now();
+  $("#hoyFecha").textContent = L("Hoy es ","Today is ") + new Intl.DateTimeFormat(LANG==="en"?"en-US":"es-CO",{timeZone:TZ,weekday:"long",day:"numeric",month:"long",year:"numeric",hour:"numeric",minute:"2-digit",second:"2-digit"}).format(new Date()) + L(" (hora de Colombia)."," (Colombia time).");
+  if (p && p.suspendidaDesde){
+    const ms = now - bogotaMs(p.suspendidaDesde);
+    const d = Math.floor(ms/864e5), h = Math.floor(ms%864e5/36e5), m = Math.floor(ms%36e5/6e4), s = Math.floor(ms%6e4/1e3);
+    $("#relojPalmar").innerHTML = `${d}<small> ${L("días","days")}</small>`;
+    const dd = String(h).padStart(2,"0")+":"+String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");
+    const venc = p.fechasIncumplidas?.length ? Math.floor((now - bogotaMs(p.fechasIncumplidas[p.fechasIncumplidas.length-1]))/864e5) : null;
+    $("#relojDetalle").textContent = L(`y ${dd} horas desde el 20 de julio. `,`and ${dd} hours since July 20. `) + (venc!=null ? L(`Van ${venc} días de vencida la segunda fecha de entrega.`,`The second delivery date expired ${venc} days ago.`) : "");
+  }
+  if (t && t.inicio){
+    const total = Math.round((bogotaMs(t.fin)-bogotaMs(t.inicio))/864e5)+1;
+    const dia = Math.floor((now - bogotaMs(t.inicio))/864e5)+1;
+    const faltan = Math.ceil((bogotaMs(t.fin) - now)/864e5);
+    $("#trianguloHoy").textContent = dia < 1 ? L("Todavía no empieza el plazo.","The term hasn't started yet.") : faltan < 0 ? L("Se venció el plazo.","The term has expired.") : L(`Día ${dia} de ${total}. Faltan ${faltan} días para entregar.`,`Day ${dia} of ${total}. ${faltan} days left to deliver.`);
+    $("#barTriangulo").style.width = Math.max(0,Math.min(100,dia/total*100)) + "%";
+  }
+}
+function pintarHoyNoticias(){
+  const hoy = diaCO(new Date());
+  const lista = NOTICIAS.noticias.filter(n => n.fecha);
+  let deHoy = lista.filter(n => diaCO(n.fecha) === hoy);
+  const titulo = deHoy.length ? L(`${deHoy.length} noticia${deHoy.length>1?"s":""} de hoy`,`${deHoy.length} stor${deHoy.length>1?"ies":"y"} today`) : L("No hay noticias nuevas hoy. Lo último:","No new stories today. Latest:");
+  if (!deHoy.length) deHoy = lista.slice(0,4);
+  $("#hoyNoticias").innerHTML = `<li style="border:0;padding-top:0"><b>${esc(titulo)}</b></li>` + deHoy.slice(0,5).map(n => {
+    const esNueva = ultimaVisita && n.fecha > ultimaVisita;
+    return `<li>${esNueva?`<span class="nuevo">${L("NUEVA","NEW")}</span>`:""}<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.titulo)}</a><small>${esc(n.fuente||"")} · ${esc(hace(n.fecha))}</small></li>`;
+  }).join("");
+  // Cinta de titulares
+  const tit = lista.slice(0,10).map(n => `<span>${esc(n.titulo)}</span>`).join("");
+  const fijo = `<span>${L("Parque El Palmar: $744 de $936 millones pagados y la obra parada","El Palmar Park: 744 of 936 million paid and the works stopped")}</span><span>${L("¿Quién responde? Pida la información desde esta app","Who is accountable? Request the records from this app")}</span>`;
+  $("#rueda").innerHTML = fijo + tit + fijo + tit;
+}
+function pintarPregunta(){
+  const todas = (OBRAS?.obras||[]).flatMap(o => (o.preguntas||[]).map(p => ({p, o})));
+  if (!todas.length) return;
+  const n = Math.floor(bogotaMs(diaCO(new Date()))/864e5) % todas.length;
+  const {p, o} = todas[n];
+  $("#preguntaDia").textContent = `${T(o.nombre)}: ${T(p)}`;
+  $("#preguntaWa").href = "https://wa.me/?text=" + encodeURIComponent(`${T(o.nombre)} (Caucasia): ${T(p)}\n${URL_APP}`);
+}
+
+/* ===== Pintar: Obras ===== */
+function pintarObras(){
+  const cont = $("#listaObras");
+  cont.innerHTML = (OBRAS?.obras||[]).map(o => {
+    const pct = o.valor && o.pagado ? o.pagado/o.valor*100 : null;
+    const cara = o.foto
+      ? `<img src="${esc(o.foto)}" alt="${esc(T(o.nombre))}" loading="lazy">`
+      : `<div class="valla"><div class="peq">${esc(T(o.lugar))}</div><div class="grande num">${o.valor ? esc(millones(o.valor)) : L("¿Cuánto costó?","How much?")}</div><div class="peq">${o.valor ? L("valor del contrato","contract value") : L("Nadie lo ha publicado","Nobody has published it")}</div></div>`;
+    let barra = "";
+    if (pct != null) barra = `<div><div class="barra"><i data-w="${pct.toFixed(1)}"></i></div><div class="barra-txt num"><span>${L("Pagado","Paid")} ${esc(millones(o.pagado))}</span><span>${pct.toFixed(1)}%</span></div></div>`;
+    else if (o.inicio && o.fin){ const tot=(bogotaMs(o.fin)-bogotaMs(o.inicio))/864e5+1; const dia=Math.max(0,(Date.now()-bogotaMs(o.inicio))/864e5); const w=Math.min(100,dia/tot*100);
+      barra = `<div><div class="barra verde"><i data-w="${w.toFixed(1)}"></i></div><div class="barra-txt num"><span>${L("Plazo corrido","Term elapsed")}</span><span>${w.toFixed(0)}%</span></div></div>`; }
+    const linea = (o.linea||[]).map(x => `<li class="${x.ojo?"ojo":""} ${x.f>diaCO(new Date())?"futuro":""}"><b>${esc(fechaLarga(x.f))}</b>${esc(T(x))}</li>`).join("");
+    const pre = (o.preguntas||[]).map(p => `<li>${esc(T(p))}</li>`).join("");
+    const extra = [o.contratista && `${L("Contratista","Contractor")}: ${o.contratista}`, o.entidad && `${L("Contrata","Contracting entity")}: ${o.entidad}`, o.interventoria && `${L("Interventoría","Oversight")}: ${o.interventoria}`].filter(Boolean).map(esc).join("<br>");
+    const wa = "https://wa.me/?text=" + encodeURIComponent(`${T(o.nombre)} (Caucasia): ${T(o.resumen)}\n${URL_APP}#obras`);
+    return `<article class="obra" id="obra-${esc(o.id)}">
+      <div class="cara">${cara}<span class="chip ${esc(o.estado)}">${esc(L(...(ESTADOS[o.estado]||["",""])))}</span></div>
+      <div class="cuerpo">
+        <h3>${esc(T(o.nombre))}</h3><div class="lugar">${esc(T(o.lugar))}</div>
+        ${barra}
+        <p style="margin:0">${esc(T(o.resumen))}</p>
+        <div class="detalle" id="det-${esc(o.id)}">
+          ${extra?`<p style="font-size:15px;margin:0 0 10px">${extra}</p>`:""}
+          <div class="etq">${L("Fecha por fecha","Date by date")}</div><ol class="tiempo">${linea}</ol>
+          ${pre?`<div class="etq">${L("Preguntas","Questions")}</div><ol style="padding-left:20px;margin:6px 0">${pre}</ol>`:""}
+          <p class="fuente">${L("Fuente","Source")}: ${esc(T(o.fuente))} ${o.fuente?.url?`<a href="${esc(o.fuente.url)}" target="_blank" rel="noopener">${L("Ver","View")}</a>`:""}</p>
+          ${o.app?`<a class="btn" href="${esc(o.app)}" target="_blank" rel="noopener">${L("Abrir la app de esta obra","Open this project's app")}</a>`:""}
+        </div>
+        <div class="acciones">
+          <button class="btn" data-abrir="${esc(o.id)}">${L("Ver más","More")}</button>
+          <a class="btn" href="#actue" data-obra="${esc(o.id)}">${L("Pedir información","Request records")}</a>
+          <a class="btn" href="${wa}" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div></article>`;
+  }).join("");
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add("entra"); e.target.querySelectorAll("[data-w]").forEach(i => i.style.width = i.dataset.w + "%"); io.unobserve(e.target); } }), {threshold:.15});
+  cont.querySelectorAll(".obra").forEach(el => io.observe(el));
+}
+
+/* ===== Pintar: El Palmar ===== */
+function pintarPalmar(){
+  const p = obra("palmar"); if (!p) return;
+  const hoy = diaCO(new Date());
+  $("#palmarTiempo").innerHTML = (p.linea||[]).map(x => `<li class="${x.ojo?"ojo":""}"><b>${esc(fechaLarga(x.f))}</b>${esc(T(x))}</li>`).join("");
+  $("#palmarPreguntas").innerHTML = (p.preguntas||[]).map(x => `<li>${esc(T(x))}</li>`).join("");
+  $("#palmarSecop").innerHTML = (p.secop||[]).map(x => `<div style="border-left:4px solid var(--amarillo);padding:6px 12px;margin:8px 0"><b class="num" style="color:var(--amarillo)">${esc(x.ref)}</b> <span style="color:#BFC4C0">· ${esc(x.entidad)} · ${esc(fechaLarga(x.publicado))}</span><div>${esc(T(x))}</div></div>`).join("") + `<a class="btn" style="margin-top:4px" href="https://community.secop.gov.co/Public/Tendering/ContractNoticeManagement/Index" target="_blank" rel="noopener">${L("Buscar en el SECOP: escriba PALMAR","Search SECOP: type PALMAR")}</a>`;
+  const COL = {directo:"#3FA57A",admin:"#F25C05",util:"#F2B705",pgio:"#8A9A92",inter:"#6FA3E0",edur:"#FF7A6E"};
+  const tot = (p.plata||[]).reduce((a,x)=>a+x.v,0);
+  $("#reparto").innerHTML = (p.plata||[]).map(x => `<i style="background:${COL[x.k]}" data-w="${(x.v/tot*100).toFixed(2)}" title="${esc(T(x))}"></i>`).join("");
+  $("#leyenda").innerHTML = (p.plata||[]).map(x => `<div><s style="background:${COL[x.k]}"></s><b>${esc(millones(x.v))}</b><span>${esc(T(x))}</span></div>`).join("") + `<div><s style="background:transparent"></s><b>${esc(millones(tot))}</b><span>${L("Total del proyecto","Project total")}</span></div>`;
+  $("#palmarPago").textContent = T(p.pago);
+  $("#hallazgos").innerHTML = (p.hallazgos||[]).map((x,i) => `<div class="hallazgo"><b>${L("Hallazgo","Finding")} ${i+1}</b>${esc(T(x))}</div>`).join("");
+  const io2 = new IntersectionObserver(es => es.forEach(e => { if (!e.isIntersecting) return; io2.unobserve(e.target);
+    if (e.target.id==="reparto") e.target.querySelectorAll("i").forEach(i => i.style.width = i.dataset.w + "%"); else e.target.classList.add("entra"); }), {threshold:.3});
+  io2.observe($("#reparto")); document.querySelectorAll(".hallazgo").forEach(h => io2.observe(h));
+  $("#palmarFuente").textContent = L("Fuente: ","Source: ") + T(p.fuente);
+  $("#palmarWa").href = "https://wa.me/?text=" + encodeURIComponent(L("Parque El Palmar, Caucasia: contrato de $936 millones, $744 millones ya pagados y la obra parada desde el 20 de julio. ¿Quién responde? ","El Palmar Park, Caucasia: 936 million contract, 744 million already paid and the works stopped since July 20. Who is accountable? ") + URL_APP + "#palmar");
+}
+function contar(){
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return; io.unobserve(e.target);
+    if (e.target.id === "barPalmar"){ e.target.style.width = "79.5%"; return; }
+    const fin = parseFloat(e.target.dataset.contar), dec = +(e.target.dataset.dec||0), t0 = performance.now(), dur = 1600;
+    const paso = t => { const k = Math.min(1,(t-t0)/dur), v = fin*(1-Math.pow(1-k,3)); e.target.textContent = v.toLocaleString(LANG==="en"?"en-US":"es-CO",{minimumFractionDigits:dec,maximumFractionDigits:dec}); if (k<1) requestAnimationFrame(paso); };
+    requestAnimationFrame(paso);
+  }), {threshold:.4});
+  document.querySelectorAll("[data-contar]").forEach(el => io.observe(el));
+  io.observe($("#barPalmar"));
+}
+
+/* ===== Pintar: SECOP ===== */
+function todosContratos(){
+  const vistos = new Set(); const out = [];
+  for (const c of [...SECOP_VIVO, ...(SECOP.contratos||[]), ...(SECOP.procesos||[])]){
+    const k = (c.id || "") + "|" + String(c.objeto).slice(0,50);
+    if (vistos.has(k)) continue; vistos.add(k); out.push(c);
+  }
+  const palmar = c => /PALMAR/i.test(c.objeto||"");
+  return out.sort((a,b) => (palmar(b)-palmar(a)) || String(b.firma||b.inicio||"").localeCompare(String(a.firma||a.inicio||"")));
+}
+function pintarSecop(){
+  const q = claveT($("#buscarSecop").value);
+  const hoy = diaCO(new Date());
+  const lista = todosContratos().filter(c => !q || claveT(`${c.objeto} ${c.contratista} ${c.entidad} ${c.estado}`).includes(q));
+  if (!lista.length){
+    $("#secopLista").innerHTML = `<p style="margin:0">${q ? L("Nada con esa búsqueda.","Nothing matches that search.") : L("Todavía no hay contratos cargados. El robot los trae apenas corra en GitHub; si usted tiene internet, también se buscan en vivo.","No contracts loaded yet. The robot brings them as soon as it runs on GitHub; with internet they are also searched live.")}</p>`;
+    return;
+  }
+  $("#secopLista").innerHTML = lista.slice(0,60).map(c => {
+    const pct = c.valor && c.pagado ? c.pagado/c.valor*100 : null;
+    const alertas = [];
+    if (c.fin && c.fin < hoy && !/terminado|cerrado|liquidado/i.test(c.estado||"")) alertas.push(`<span class="alerta">${L("Plazo vencido","Term expired")}</span>`);
+    if (/suspend/i.test(c.estado||"")) alertas.push(`<span class="alerta">${L("Suspendido","Suspended")}</span>`);
+    if (c.diasAdicionados > 0) alertas.push(`<span class="alerta amarilla">+${c.diasAdicionados} ${L("días","days")}</span>`);
+    if (/PALMAR/i.test(c.objeto||"")) alertas.unshift(`<span class="alerta amarilla">El Palmar</span>`);
+    return `<div class="contrato ${/PALMAR/i.test(c.objeto||"")?"destacado":""}">
+      <div>${alertas.join("")}</div>
+      <div class="obj">${esc(String(c.objeto).slice(0,220))}${String(c.objeto).length>220?"…":""}</div>
+      <div class="meta num">${c.valor?`${L("Valor","Value")} <b>${esc(plata(c.valor))}</b>`:""}${pct!=null?` · ${L("pagado","paid")} ${esc(plata(c.pagado))} (${pct.toFixed(0)}%)`:""}${c.estado?` · ${esc(c.estado)}`:""}</div>
+      <div class="meta">${c.contratista?esc(c.contratista)+" · ":""}${esc(c.entidad||"")}${c.inicio?` · ${esc(fechaLarga(c.inicio))}`:""}${c.fin?` → ${esc(fechaLarga(c.fin))}`:""}</div>
+      ${c.url?`<div class="meta"><a href="${esc(c.url)}" target="_blank" rel="noopener">${L("Ver en el SECOP","View on SECOP")}</a></div>`:""}
+    </div>`;
+  }).join("");
+}
+
+/* ===== Pintar: Noticias ===== */
+function pintarNoticias(){
+  const q = claveT($("#buscarNoticias").value);
+  const lista = NOTICIAS.noticias.filter(n => !q || claveT(n.titulo+" "+(n.fuente||"")).includes(q));
+  $("#noticiasBajada").textContent = L(`Noticias reales sobre obras, contratos y plata pública de Caucasia. El robot busca cada 30 minutos`,`Real news about Caucasia's public works, contracts and public money. The robot searches every 30 minutes`) + (NOTICIAS.actualizado ? L(`; última revisión ${hace(NOTICIAS.actualizado)}.`,`; last check ${hace(NOTICIAS.actualizado)}.`) : ".");
+  $("#listaNoticias").innerHTML = lista.slice(0,40).map(n => {
+    const nueva = ultimaVisita && n.fecha > ultimaVisita;
+    const img = n.imagen ? `<img src="${esc(n.imagen)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=sin>${esc((n.fuente||'').slice(0,18))}</div>'">` : `<div class="sin">${esc((n.fuente||"").slice(0,18))}</div>`;
+    return `<a class="noticia" href="${esc(n.url)}" target="_blank" rel="noopener">${img}<div><b>${nueva?`<span class="nuevo">${L("NUEVA","NEW")}</span>`:""}${esc(n.titulo)}</b><small>${esc(n.fuente||"")} · ${esc(hace(n.fecha))}</small></div></a>`;
+  }).join("") || `<p>${L("Sin resultados.","No results.")}</p>`;
+}
+
+/* ===== Petición y reporte ===== */
+function llenarSelects(){
+  const ops = (OBRAS?.obras||[]).map(o => `<option value="${esc(o.id)}">${esc(T(o.nombre))}</option>`).join("");
+  const p = $("#pObra").value, r = $("#rObra").value;
+  $("#pObra").innerHTML = ops; $("#rObra").innerHTML = ops;
+  if (p) $("#pObra").value = p; if (r) $("#rObra").value = r;
+  const q = $("#rQue").value;
+  $("#rQue").innerHTML = QUE_VIO.map(x => `<option value="${x[0]}">${esc(L(x[1],x[2]))}</option>`).join("");
+  if (q) $("#rQue").value = q;
+  $("#comoLista").innerHTML = COMO.map(x => `<li style="margin-bottom:8px">${esc(L(x[0],x[1]))}</li>`).join("");
+  ["pNombre","pCedula","pBarrio","pCorreo"].forEach(id => { const v = leer("vc_"+id,""); if (v && !$("#"+id).value) $("#"+id).value = v; });
+}
+function carta(){
+  const o = obra($("#pObra").value) || (OBRAS?.obras||[])[0]; if (!o) return "";
+  const nom = $("#pNombre").value.trim() || L("[Su nombre]","[Your name]");
+  const ced = $("#pCedula").value.trim() || L("[Cédula]","[ID number]");
+  const dir = $("#pBarrio").value.trim() || L("[Barrio y dirección]","[Address]");
+  const mail = $("#pCorreo").value.trim() || L("[Correo]","[Email]");
+  const hoy = new Intl.DateTimeFormat("es-CO",{timeZone:TZ,day:"numeric",month:"long",year:"numeric"}).format(new Date());
+  const nombreObra = o.nombre.es;
+  const extraPalmar = o.id === "palmar" ? `
+7. Nombre del contratista de obra del proceso MN-022-2025 de EDURHABA y del contratista de la interventoría del proceso PSC-MIC-028-2025, con copia de ambos contratos.
+8. Copia de los otrosíes o prórrogas del contrato interadministrativo CI-022-2025 suscrito con EDURHABA, cuyo plazo iba hasta el 30 de diciembre de 2025.
+9. Detalle de los $744 millones que según información pública se han pagado al contratista: cuánto corresponde al pago anticipado del 50% y cuánto a actas parciales, con copia de esas actas y de quién las aprobó.
+10. Copia del acta de suspensión de la obra del 20 de julio de 2026, con los motivos, y de las actas que fijaron las fechas de terminación del 9 de mayo y del 30 de julio de 2026.
+11. Copia de la solicitud de adición en dinero y en tiempo presentada por el contratista, si existe, y el concepto de la interventoría y de la supervisión.
+12. Información sobre si se han iniciado procesos por incumplimiento, multas o reclamación de la póliza de cumplimiento.
+13. Explicación de por qué el proyecto se financia con el rubro de contribución sobre contratos de obra pública (CDP 01205 y 01355), destinado a convivencia y seguridad ciudadana.` : "";
+  return `Caucasia, ${hoy}
+
+Señores
+ALCALDÍA MUNICIPAL DE CAUCASIA
+Secretaría de Planeación / Secretaría de Infraestructura
+Caucasia, Antioquia
+
+Asunto: Derecho de petición de información y documentos — ${nombreObra}
+
+Yo, ${nom}, identificado(a) con cédula ${ced}, en ejercicio del derecho fundamental de petición (artículo 23 de la Constitución Política y Ley 1755 de 2015) y del derecho de acceso a la información pública (Ley 1712 de 2014), respetuosamente solicito copia de los siguientes documentos e información sobre la obra "${nombreObra}" del municipio de Caucasia:
+
+1. Copia del contrato de obra y de sus modificaciones, adiciones, prórrogas y otrosíes, con el número del proceso en el SECOP.
+2. Nombre del contratista, de la interventoría y del supervisor designado por el municipio.
+3. Relación de todos los pagos hechos al contratista (anticipo, actas parciales), con fecha y valor, y copia de las actas de pago.
+4. Porcentaje de avance físico y financiero de la obra a la fecha, según el último informe de interventoría, y copia de ese informe.
+5. Copia del cronograma de obra aprobado.
+6. Copia de las pólizas de cumplimiento, buen manejo del anticipo y estabilidad de la obra.${extraPalmar}
+
+Pido que los documentos se entreguen dentro de los 10 días hábiles y las respuestas dentro de los 15 días hábiles que fija la Ley 1755 de 2015.
+
+Recibo respuesta en:
+Dirección: ${dir}
+Correo: ${mail}
+
+Atentamente,
+
+${nom}
+C.C. ${ced}`;
+}
+function pintarCarta(){
+  const t = carta(); $("#carta").textContent = t;
+  $("#cartaWa").href = "https://wa.me/?text=" + encodeURIComponent(t);
+  const o = obra($("#pObra").value);
+  $("#cartaMail").href = "mailto:?subject=" + encodeURIComponent("Derecho de petición — " + (o?o.nombre.es:"obra pública") + " (Caucasia)") + "&body=" + encodeURIComponent(t);
+}
+function pintarReporte(){
+  const o = obra($("#rObra").value); const q = QUE_VIO.find(x => x[0] === $("#rQue").value) || QUE_VIO[0];
+  const txt = `${L("Reporte para Veeduría Caucasia","Report for Veeduría Caucasia")}\n${L("Obra","Project")}: ${o?T(o.nombre):""}\n${L("Qué vi","What I saw")}: ${L(q[1],q[2])}\n${L("Fecha","Date")}: ${new Intl.DateTimeFormat("es-CO",{timeZone:TZ,dateStyle:"long",timeStyle:"short"}).format(new Date())}\n${$("#rNota").value.trim()}`;
+  $("#rEnviar").href = `https://wa.me/${WA_HAROLD}?text=` + encodeURIComponent(txt);
+}
+
+/* ===== Todo junto ===== */
+function pintarTodo(){
+  traducir(); pintarReloj(); pintarHoyNoticias(); pintarPregunta(); pintarObras(); pintarPalmar(); pintarSecop(); pintarNoticias(); llenarSelects(); pintarCarta(); pintarReporte();
+  $("#pieHora").textContent = L("Abierta el ","Opened ") + new Intl.DateTimeFormat(LANG==="en"?"en-US":"es-CO",{timeZone:TZ,dateStyle:"long",timeStyle:"short"}).format(new Date()) + L(" (hora de Colombia)."," (Colombia time).");
+}
+
+async function cargar(){
+  const btn = $("#btnRef"); btn.disabled = true; btn.classList.add("girando"); btn.textContent = L("Buscando…","Searching…");
+  $("#estadoVivo").textContent = L("Buscando noticias…","Looking for news…");
+  const [o, n, s] = await Promise.allSettled([json("data/obras.json"), json("data/noticias.json"), json("data/secop.json")]);
+  if (o.status === "fulfilled"){ OBRAS = o.value; guardar("vc_obras", OBRAS); }
+  if (n.status === "fulfilled"){ NOTICIAS = n.value; NOTICIAS.noticias ||= []; }
+  if (s.status === "fulfilled" && (s.value.contratos?.length || s.value.procesos?.length)){ SECOP = s.value; guardar("vc_secop", SECOP); }
+  if (!OBRAS){ $("#listaObras").textContent = L("Sin conexión. Abra la app con internet una vez.","Offline. Open the app once with internet."); }
+  pintarTodo();
+  // Búsqueda en vivo: noticias y SECOP
+  const [vivo, sv] = await Promise.all([noticiasEnVivo(), secopEnVivo()]);
+  const nuevas = unirNoticias(vivo);
+  guardar("vc_noticias", NOTICIAS);
+  if (sv.length) SECOP_VIVO = sv;
+  pintarHoyNoticias(); pintarNoticias(); pintarSecop();
+  const nc = todosContratos().length;
+  $("#secopEstado").textContent = nc ? L(`${nc} contratos y procesos de Caucasia`,`${nc} Caucasia contracts and processes`) + (SECOP.hora ? L(` · robot ${hace(SECOP.hora)}`,` · robot ${hace(SECOP.hora)}`) : "") + (sv.length ? L(" · en vivo"," · live") : "") : L("Esperando al robot del SECOP","Waiting for the SECOP robot");
+  $("#estadoVivo").textContent = L("En vivo","Live") + " · " + (nuevas ? L(`${nuevas} encontradas ahora`,`${nuevas} found just now`) : L("revisado ahora","checked just now"));
+  btn.disabled = false; btn.classList.remove("girando"); btn.textContent = L("Actualizar","Refresh");
+  return nuevas;
+}
+
+/* Eventos */
+$("#btnRef").addEventListener("click", async () => { const n = await cargar(); aviso(n ? L(`${n} noticias nuevas`,`${n} new stories`) : L("Todo al día","All up to date")); });
+$("#btnLang").addEventListener("click", () => { LANG = LANG === "en" ? "es" : "en"; guardar("vc_lang", LANG); pintarTodo(); });
+document.addEventListener("click", e => {
+  const a = e.target.closest("[data-abrir]");
+  if (a){ const d = $("#det-"+a.dataset.abrir); d.classList.toggle("abierto"); a.textContent = d.classList.contains("abierto") ? L("Ver menos","Less") : L("Ver más","More"); }
+  const ob = e.target.closest("[data-obra]");
+  if (ob){ $("#pObra").value = ob.dataset.obra; $("#rObra").value = ob.dataset.obra; pintarCarta(); pintarReporte(); }
+});
+["pObra","pNombre","pCedula","pBarrio","pCorreo"].forEach(id => $("#"+id).addEventListener("input", () => { if (id!=="pObra") guardar("vc_"+id, $("#"+id).value); pintarCarta(); }));
+["rObra","rQue","rNota"].forEach(id => $("#"+id).addEventListener("input", pintarReporte));
+$("#copiar").addEventListener("click", async () => { try{ await navigator.clipboard.writeText(carta()); aviso(L("Carta copiada","Letter copied")); }catch(e){ aviso(L("No se pudo copiar","Could not copy")); } });
+$("#buscarSecop").addEventListener("input", pintarSecop);
+$("#buscarNoticias").addEventListener("input", pintarNoticias);
+
+/* Navegación: marca la sección que se ve */
+const navIO = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) document.querySelectorAll(".nav a").forEach(a => a.classList.toggle("act", a.getAttribute("href") === "#"+e.target.id)); }), {rootMargin:"-45% 0px -50% 0px"});
+document.querySelectorAll("main section").forEach(s => navIO.observe(s));
+
+/* Portada: fotos que cambian */
+let f = 0; const docs = [...document.querySelectorAll(".portada .doc")];
+setInterval(() => { f = (f+1) % docs.length; docs.forEach((d,i) => { d.classList.toggle("atras", i !== f); d.style.zIndex = i === f ? 3 : 1; }); }, 3500);
+document.addEventListener("click", e => { const b = e.target.closest("[data-doc]"); if (b){ $("#visorImg").src = b.dataset.doc; $("#visor").classList.add("ver"); } });
+$("#cerrarVisor").addEventListener("click", () => $("#visor").classList.remove("ver"));
+$("#visor").addEventListener("click", e => { if (e.target.id === "visor") $("#visor").classList.remove("ver"); });
+
+/* Reloj que corre cada segundo */
+setInterval(pintarReloj, 1000);
+/* Si vuelve a la app, se actualiza sola */
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") cargar(); });
+
+if (OBRAS) pintarTodo();
+contar();
+cargar();
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
