@@ -1,5 +1,5 @@
 {
- "hora": "2026-10-30T15:29:13.324Z",
+ "hora": "2026-10-30T20:02:50.305Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -1925,6 +1925,39 @@
  "procesos": [
   {
    "tipo": "proceso",
+   "id": "CO1.REQ.11287595",
+   "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
+   "objeto": "INTERVENTORIA TECNICA; ADMINISTRATIVA; FINANCIERA. LEGAL Y AMBIENTAL PARA EL CONTRATO DE OBRA CUYO OBJETO ES CONTRUCCION DE PAVIMENTO RIGIDO Y OBRAS COMPLEMENTARIAS; EN EL BARRIO EL PALMAR Y BARRIO",
+   "contratista": "CORPORACION DE ASOCIACIONES PARA EL DESARROLLO DE COLOMBIA",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2026-10-29",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11141505"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.11287554",
+   "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
+   "objeto": "CONTRUCCION DE PAVIMENTO RIGIDO Y OBRAS COMPLEMENTARIAS; EN EL BARRIO EL PALMAR Y BARRIO PUEBLO NUEVO; ZONA URBANA DEL MUNICIPIO DE CAUCASIA; ANTIOQUIA; INDENTIFICADO CON ID 1802086.",
+   "contratista": "wilson ferney agudelo muñoz",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2026-10-29",
+   "url": "https://community.secop.gov.co/STS/Users/Login/Index"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.11266157",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-008-2026 (Fase de Selección (Presentación de ofertas))",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2026-10-26",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11120093"
+  },
+  {
+   "tipo": "proceso",
    "id": "CO1.REQ.11235289",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "MEJORAMIENTO Y RECUPERACION DEL ESPACIO PUBLICO; A TRAVES; DE LA ADECUACIÓN Y DOTACION DEL PARQUE LINEAL EN EL BARRIO EL TRIANGULO - SEGUNDA ETAPA - EN EL MUNICIPIO DE CAUCASIA; ANTIOQUIA",
@@ -2175,17 +2208,6 @@
    "estado": "Seleccionado",
    "firma": "2026-07-17",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10532240"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.10599010",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-007-2026",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Evaluación",
-   "firma": "2026-07-03",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10453374"
   },
   {
    "tipo": "proceso",
@@ -2780,28 +2802,6 @@
    "estado": "Seleccionado",
    "firma": "2025-10-06",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8904026"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.8957497",
-   "entidad": "ALCALDIA MUNICIPIO DE VALDIVIA",
-   "objeto": "ADQUISICIÓN DE BIENES Y/O SERVICIOS PARA REALIZAR EL MANTENIMIENTO PREVENTIVO Y CORRECTIVO DEL PARQUE AUTOMOTOR (CAMIONETA VOLKSWAGEN TRANSPORTER Y RENAULT TRAFIC) ADSCRITOS AL ESTABLECIMIENTO PENITEN",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Cancelado",
-   "firma": "2025-09-23",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8823188"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.8961016",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION OPERATIVA EN EL DESARROLLO Y EJECUCION DE PLANES; PROGRAMAS Y POLITICAS EN ESPACIO PUBLICO EN EL MUNICIPIO DE CAUCASIA",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Seleccionado",
-   "firma": "2025-09-23",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8826817"
   }
  ],
  "ok": true
