@@ -1,5 +1,5 @@
 {
- "hora": "2026-10-30T08:50:30.438Z",
+ "hora": "2026-10-30T15:29:13.324Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -10,8 +10,8 @@
    "valor": 9883688,
    "pagado": null,
    "facturado": null,
-   "estado": "Aprobado",
-   "inicio": null,
+   "estado": "En ejecución",
+   "inicio": "2026-10-16",
    "fin": "2026-10-20",
    "firma": "2026-10-16",
    "diasAdicionados": 0,
