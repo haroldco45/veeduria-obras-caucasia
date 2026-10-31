@@ -1,5 +1,5 @@
 {
- "hora": "2026-10-31T15:49:13.445Z",
+ "hora": "2026-10-31T19:40:19.287Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -1925,6 +1925,17 @@
  "procesos": [
   {
    "tipo": "proceso",
+   "id": "CO1.REQ.11296779",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-009-2026 (Fase de Selección (Presentación de ofertas))",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2026-10-30",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11150206"
+  },
+  {
+   "tipo": "proceso",
    "id": "CO1.REQ.11287595",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "INTERVENTORIA TECNICA; ADMINISTRATIVA; FINANCIERA. LEGAL Y AMBIENTAL PARA EL CONTRATO DE OBRA CUYO OBJETO ES CONTRUCCION DE PAVIMENTO RIGIDO Y OBRAS COMPLEMENTARIAS; EN EL BARRIO EL PALMAR Y BARRIO",
@@ -1943,7 +1954,7 @@
    "valor": null,
    "estado": "Publicado",
    "firma": "2026-10-29",
-   "url": "https://community.secop.gov.co/STS/Users/Login/Index"
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11141418"
   },
   {
    "tipo": "proceso",
@@ -2002,17 +2013,6 @@
   },
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.11229424",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-009-2026",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Publicado",
-   "firma": "2026-10-19",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11084101"
-  },
-  {
-   "tipo": "proceso",
    "id": "CO1.REQ.11210945",
    "entidad": "ESE HOSPÍTAL CESAR URIBE PIEDRAHITA",
    "objeto": "GARANTIZAR LAS LABORES PARA EL MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LA INFRAESTRUCTURA FÍSICA DE LA E.S.E HOSPITAL CÉSAR URIBE PIEDRAHITA SEDE EL MAN Y ANTIGUA SEDE PALMAR EN EL MUNICIPIO DE CAUCA",
@@ -2021,6 +2021,17 @@
    "estado": "Publicado",
    "firma": "2026-10-15",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11065150"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.11200531",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-008-2026",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Evaluación",
+   "firma": "2026-10-13",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11054729"
   },
   {
    "tipo": "proceso",
@@ -2791,17 +2802,6 @@
    "estado": "Seleccionado",
    "firma": "2025-10-08",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8918475"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.9038774",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION OPERATIVA EN EL DESARROLLO Y EJECUCION DE PLANES; PROGRAMAS Y POLITICAS EN ESPACIO PUBLICO EN EL MUNICIPIO DE CAUCASIA",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Seleccionado",
-   "firma": "2025-10-06",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8904026"
   }
  ],
  "ok": true
