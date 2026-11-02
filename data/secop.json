@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-02T00:10:54.918Z",
+ "hora": "2026-11-02T06:35:01.934Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -1963,7 +1963,7 @@
    "objeto": "LP-008-2026 (Fase de Selección (Presentación de ofertas))",
    "contratista": "No Definido",
    "valor": null,
-   "estado": "Publicado",
+   "estado": "Evaluación",
    "firma": "2026-10-26",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11120093"
   },
@@ -2013,6 +2013,17 @@
   },
   {
    "tipo": "proceso",
+   "id": "CO1.REQ.11229424",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-009-2026",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Evaluación",
+   "firma": "2026-10-19",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11084101"
+  },
+  {
+   "tipo": "proceso",
    "id": "CO1.REQ.11210945",
    "entidad": "ESE HOSPÍTAL CESAR URIBE PIEDRAHITA",
    "objeto": "GARANTIZAR LAS LABORES PARA EL MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LA INFRAESTRUCTURA FÍSICA DE LA E.S.E HOSPITAL CÉSAR URIBE PIEDRAHITA SEDE EL MAN Y ANTIGUA SEDE PALMAR EN EL MUNICIPIO DE CAUCA",
@@ -2021,17 +2032,6 @@
    "estado": "Publicado",
    "firma": "2026-10-15",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11065150"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.11200531",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-008-2026",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Evaluación",
-   "firma": "2026-10-13",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11054729"
   },
   {
    "tipo": "proceso",
