@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-05T01:36:19.672Z",
+ "hora": "2026-11-05T08:53:32.367Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -1925,17 +1925,6 @@
  "procesos": [
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.11296779",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-009-2026 (Fase de Selección (Presentación de ofertas))",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Publicado",
-   "firma": "2026-10-30",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11150206"
-  },
-  {
-   "tipo": "proceso",
    "id": "CO1.REQ.11287595",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "INTERVENTORIA TECNICA; ADMINISTRATIVA; FINANCIERA. LEGAL Y AMBIENTAL PARA EL CONTRATO DE OBRA CUYO OBJETO ES CONTRUCCION DE PAVIMENTO RIGIDO Y OBRAS COMPLEMENTARIAS; EN EL BARRIO EL PALMAR Y BARRIO",
@@ -1999,6 +1988,17 @@
    "estado": "Publicado",
    "firma": "2026-10-20",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11090099"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.11229424",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-009-2026",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Evaluación",
+   "firma": "2026-10-19",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11084101"
   },
   {
    "tipo": "proceso",
