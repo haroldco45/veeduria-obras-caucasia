@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-05T08:53:32.367Z",
+ "hora": "2026-11-05T17:02:46.158Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -522,7 +522,7 @@
    "valor": 799987431,
    "pagado": null,
    "facturado": null,
-   "estado": "Modificado",
+   "estado": "Suspendido",
    "inicio": "2026-02-15",
    "fin": "2026-11-06",
    "firma": "2026-01-26",
@@ -1843,6 +1843,22 @@
   },
   {
    "tipo": "contrato",
+   "id": "CO1.PCCNTR.6398806",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "ADECUACIÓN DE CUBIERTA EN AULA DE LA INSTITUCIÓN EDUCATIVA LICEO CONCEJO MUNICIPAL DE CAUCASIA - ANTIOQUIA.",
+   "contratista": "VAMA SOLUCIONES S.A.S",
+   "valor": 53184621,
+   "pagado": null,
+   "facturado": null,
+   "estado": "En ejecución",
+   "inicio": "2024-06-11",
+   "fin": "2024-07-10",
+   "firma": "2024-06-11",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6145922&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
    "id": "CO1.PCCNTR.6370802",
    "entidad": "ALCALDIA DE CAUCASIA",
    "objeto": "MEJORAMIENTO DE LA MALLA VIAL EXISTENTE MEDIANTE REPARCHEO EN EL BARRIO SAN RAFAEL MUNICIPIO DE CAUCASIA- ANTIOQUIA",
@@ -1904,22 +1920,6 @@
    "firma": "2024-04-08",
    "diasAdicionados": 496,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.5945472&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.6158429",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "ADMINISTRACIÓN DELEGADA DE RECURSOS PARA LA EJECUCIÓN DE LA PRESTACIÓN DEL SERVICIO E INTERVENTORÍA DEL TRANSPORTE ESCOLAR VIGENCIA 2024; PARA LOS ESTUDIANTES DE LOS ESTABLECIMIENTOS EDUCATIVOS OFICIALES DEL MUNICIPIO DE SAN MARTÍN CESAR",
-   "contratista": "COOTRANSMAG",
-   "valor": 10400000,
-   "pagado": null,
-   "facturado": null,
-   "estado": "terminado",
-   "inicio": "2024-04-02",
-   "fin": "2024-12-15",
-   "firma": "2024-04-01",
-   "diasAdicionados": 0,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.5865867&isFromPublicArea=True&isModal=true&asPopupView=true"
   }
  ],
  "procesos": [
