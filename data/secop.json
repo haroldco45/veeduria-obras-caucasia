@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-06T03:04:02.950Z",
+ "hora": "2026-11-06T11:17:48.448Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -1991,17 +1991,6 @@
   },
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.11229424",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-009-2026",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Evaluación",
-   "firma": "2026-10-19",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11084101"
-  },
-  {
-   "tipo": "proceso",
    "id": "CO1.REQ.11210945",
    "entidad": "ESE HOSPÍTAL CESAR URIBE PIEDRAHITA",
    "objeto": "GARANTIZAR LAS LABORES PARA EL MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LA INFRAESTRUCTURA FÍSICA DE LA E.S.E HOSPITAL CÉSAR URIBE PIEDRAHITA SEDE EL MAN Y ANTIGUA SEDE PALMAR EN EL MUNICIPIO DE CAUCA",
@@ -2027,8 +2016,8 @@
    "id": "CO1.REQ.11173356",
    "entidad": "ALCALDIA DE CAUCASIA",
    "objeto": "ADMINISTRACION; OPERACIÓN Y MANTENIMIENTO DE LOS SISTEMAS DE ACUEDUCTO Y ALCANTARILLADO DEL MUNICIPIO DE CAUCASIA (Presentación de oferta)",
-   "contratista": "No Definido",
-   "valor": null,
+   "contratista": "AGUASCOL ARBELAEZ S.A.S. E.S.P.",
+   "valor": 62545035826,
    "estado": "Abierto",
    "firma": "2026-10-07",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11028016"
@@ -2197,6 +2186,17 @@
    "estado": "Seleccionado",
    "firma": "2026-07-17",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10532240"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.10599010",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-007-2026",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Evaluación",
+   "firma": "2026-07-03",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10453374"
   },
   {
    "tipo": "proceso",
