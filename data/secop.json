@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-06T23:22:12.327Z",
+ "hora": "2026-11-07T02:59:31.497Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -1925,6 +1925,17 @@
  "procesos": [
   {
    "tipo": "proceso",
+   "id": "CO1.REQ.11296779",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-009-2026 (Fase de Selección (Presentación de ofertas))",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2026-10-30",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11150206"
+  },
+  {
+   "tipo": "proceso",
    "id": "CO1.REQ.11287595",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "INTERVENTORIA TECNICA; ADMINISTRATIVA; FINANCIERA. LEGAL Y AMBIENTAL PARA EL CONTRATO DE OBRA CUYO OBJETO ES CONTRUCCION DE PAVIMENTO RIGIDO Y OBRAS COMPLEMENTARIAS; EN EL BARRIO EL PALMAR Y BARRIO",
@@ -1944,6 +1955,17 @@
    "estado": "Publicado",
    "firma": "2026-10-29",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11141418"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.11266157",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-008-2026 (Fase de Selección (Presentación de ofertas))",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Evaluación",
+   "firma": "2026-10-26",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11120093"
   },
   {
    "tipo": "proceso",
@@ -2018,7 +2040,7 @@
    "objeto": "ADMINISTRACION; OPERACIÓN Y MANTENIMIENTO DE LOS SISTEMAS DE ACUEDUCTO Y ALCANTARILLADO DEL MUNICIPIO DE CAUCASIA (Presentación de oferta)",
    "contratista": "AGUASCOL ARBELAEZ S.A.S. E.S.P.",
    "valor": 62545035826,
-   "estado": "Abierto",
+   "estado": "Seleccionado",
    "firma": "2026-10-07",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11028016"
   },
@@ -2186,17 +2208,6 @@
    "estado": "Seleccionado",
    "firma": "2026-07-17",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10532240"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.10599010",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-007-2026",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Evaluación",
-   "firma": "2026-07-03",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10453374"
   },
   {
    "tipo": "proceso",
@@ -2769,17 +2780,6 @@
    "estado": "Seleccionado",
    "firma": "2025-10-15",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8946740"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.9050816",
-   "entidad": "SENA REGIONAL ANTIOQUIA Grupo Administrativo CTPGA",
-   "objeto": "BAÑOS Y BATERIAS SANITARIAS",
-   "contratista": "ALEXIS RIOS MAZO",
-   "valor": 68401034,
-   "estado": "Seleccionado",
-   "firma": "2025-10-08",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8918475"
   },
   {
    "tipo": "proceso",
