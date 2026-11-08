@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-08T17:10:25.747Z",
+ "hora": "2026-11-08T21:16:39.921Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -1925,17 +1925,6 @@
  "procesos": [
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.11296779",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-009-2026 (Fase de Selección (Presentación de ofertas))",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Publicado",
-   "firma": "2026-10-30",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11150206"
-  },
-  {
-   "tipo": "proceso",
    "id": "CO1.REQ.11287595",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "INTERVENTORIA TECNICA; ADMINISTRATIVA; FINANCIERA. LEGAL Y AMBIENTAL PARA EL CONTRATO DE OBRA CUYO OBJETO ES CONTRUCCION DE PAVIMENTO RIGIDO Y OBRAS COMPLEMENTARIAS; EN EL BARRIO EL PALMAR Y BARRIO",
@@ -2802,6 +2791,17 @@
    "estado": "Cancelado",
    "firma": "2025-09-23",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8823188"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.8961016",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION OPERATIVA EN EL DESARROLLO Y EJECUCION DE PLANES; PROGRAMAS Y POLITICAS EN ESPACIO PUBLICO EN EL MUNICIPIO DE CAUCASIA",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Seleccionado",
+   "firma": "2025-09-23",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8826817"
   }
  ],
  "ok": true
