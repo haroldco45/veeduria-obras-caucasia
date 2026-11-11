@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-11T02:06:20.397Z",
+ "hora": "2026-11-11T09:41:58.422Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -659,22 +659,6 @@
   },
   {
    "tipo": "contrato",
-   "id": "CO1.PCCNTR.8524759",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "CONTRATO INTERADMINISTRATIVO POR ADMINISTRACIÓN DELEGADA PARA CONSTRUCCION E INTERVETORIA DE PUENTES EN CONCRETO REFORZADO EN VIAS TERCIARIAS (CORREGIMIENTO EL TIGRE) DEL MUNICIPIO DE CAUCASIA DEPARTAMENTO DE ANTIOQUIA",
-   "contratista": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
-   "valor": 584066151,
-   "pagado": null,
-   "facturado": null,
-   "estado": "Modificado",
-   "inicio": "2025-11-10",
-   "fin": "2026-08-04",
-   "firma": "2025-10-31",
-   "diasAdicionados": 46,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9041590&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
    "id": "CO1.PCCNTR.8528708",
    "entidad": "ALCALDIA DE CAUCASIA",
    "objeto": "PRESTAR LOS SERVICIOS PARA LA RESTAURACIÓN ECOLÓGICA EN AREAS DE IMPORTANCIA ESTRATÉGICA ASOCIADAS A FUENTES HÍDRICAS ABASTECEDORAS DE ACUEDUCTOS EN EL MUNICIPIO DE CAUCASIA",
@@ -886,7 +870,7 @@
    "id": "CO1.PCCNTR.8281902",
    "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
    "objeto": "ADECUACIÓN; CONSTRUCCIÓN Y DOTACIÓN DE LOS CENTROS DE ACOPIO PARA LA CONSERVACIÓN DE LECHE EN EL MUNICIPIO DE TARAZÁ; ANTIOQUIA.",
-   "contratista": "FUNDSECOL",
+   "contratista": "fundacion para el desarrollo social y educativo de colombia",
    "valor": 336575880,
    "pagado": null,
    "facturado": null,
@@ -1574,7 +1558,7 @@
    "id": "CO1.PCCNTR.6775379",
    "entidad": "ALCALDIA DE CAUCASIA",
    "objeto": "CONTRATO INTERADMINISTRATIVO PARA CONSTRUCCION DE REDES DE ACUEDUCTO Y ALCANTARILLADO EN LOS BARRIOS ASOVIVIENDA; CLEMENTE ARRIETA Y EL TRIANGULO DEL MUNICIPIO DE CAUCASIA DEPARTAMENTO DE ANTIOQUIA",
-   "contratista": "Asociación de municipios Urabá, Darién - Caribe",
+   "contratista": "ASOMUDACAR",
    "valor": 948189863,
    "pagado": null,
    "facturado": null,
@@ -1920,6 +1904,22 @@
    "firma": "2024-04-01",
    "diasAdicionados": 0,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.5865867&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
+   "id": "CO1.PCCNTR.6014980",
+   "entidad": "SENA REGIONAL ANTIOQUIA Grupo de Apoyo Administrativo Mixto",
+   "objeto": "5_432 Contratar a título de arrendamiento un inmueble ubicado en el municipio de Caucasia Antioquia en la transversal 16 N.º 31-11 Barrio El palmar; para uso en ambientes de formación profesional; oficinas administrativas y espacios de bienestar para aprendices del Complejo Tecnológico Para la gestión Agroempresarial.",
+   "contratista": "Claudia Cecilia Betancur Toro",
+   "valor": 88653906,
+   "pagado": null,
+   "facturado": 79698966,
+   "estado": "Modificado",
+   "inicio": "2024-03-04",
+   "fin": "2024-12-31",
+   "firma": "2024-03-04",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.5741483&isFromPublicArea=True&isModal=true&asPopupView=true"
   }
  ],
  "procesos": [
