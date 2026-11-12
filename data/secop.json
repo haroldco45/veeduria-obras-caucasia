@@ -1,6 +1,22 @@
 {
- "hora": "2026-11-11T23:58:02.901Z",
+ "hora": "2026-11-12T06:19:01.569Z",
  "contratos": [
+  {
+   "tipo": "contrato",
+   "id": "CO1.PCCNTR.10144620",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "CONTRATAR UN OPERADOR ESPECIALIZADO PARA LA ADMINISTRACION; OPERACIÓN Y MANTENIMIENTO DE LOS SISTEMAS DE ACUEDUCTO Y ALCANTARILLADO DEL MUNICIPIO DE CAUCASIA",
+   "contratista": "AGUASCOL ARBELAEZ S.A.S. E.S.P.",
+   "valor": 62545035826,
+   "pagado": null,
+   "facturado": null,
+   "estado": "Aprobado",
+   "inicio": null,
+   "fin": "2047-02-17",
+   "firma": "2026-11-06",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11028016&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
   {
    "tipo": "contrato",
    "id": "CO1.PCCNTR.10081900",
@@ -330,11 +346,11 @@
    "valor": 45013535,
    "pagado": null,
    "facturado": null,
-   "estado": "En ejecución",
+   "estado": "terminado",
    "inicio": "2026-06-09",
    "fin": "2026-08-22",
    "firma": "2026-06-01",
-   "diasAdicionados": 0,
+   "diasAdicionados": 7,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10325345&isFromPublicArea=True&isModal=true&asPopupView=true"
   },
   {
@@ -538,7 +554,7 @@
    "valor": 14687976,
    "pagado": null,
    "facturado": null,
-   "estado": "Modificado",
+   "estado": "Cerrado",
    "inicio": "2026-01-23",
    "fin": "2026-07-31",
    "firma": "2026-01-23",
@@ -1904,22 +1920,6 @@
    "firma": "2024-04-01",
    "diasAdicionados": 0,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.5865867&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.6014980",
-   "entidad": "SENA REGIONAL ANTIOQUIA Grupo de Apoyo Administrativo Mixto",
-   "objeto": "5_432 Contratar a título de arrendamiento un inmueble ubicado en el municipio de Caucasia Antioquia en la transversal 16 N.º 31-11 Barrio El palmar; para uso en ambientes de formación profesional; oficinas administrativas y espacios de bienestar para aprendices del Complejo Tecnológico Para la gestión Agroempresarial.",
-   "contratista": "Claudia Cecilia Betancur Toro",
-   "valor": 88653906,
-   "pagado": null,
-   "facturado": 79698966,
-   "estado": "Modificado",
-   "inicio": "2024-03-04",
-   "fin": "2024-12-31",
-   "firma": "2024-03-04",
-   "diasAdicionados": 0,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.5741483&isFromPublicArea=True&isModal=true&asPopupView=true"
   }
  ],
  "procesos": [
@@ -2054,6 +2054,17 @@
    "estado": "Publicado",
    "firma": "2026-09-30",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10988553"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.11087701",
+   "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
+   "objeto": "INTERVENTORIA TECNICA; ADMINISTRATIVA; FINANCIERA. LEGAL Y AMBIENTAL PARA EL CONTRATO DE OBRA CUYO OBJETO ES CONSTRUCCIÓN DE PAVIMENTO RÍGIDO Y OBRAS COMPLEMENTARIAS EN LOS BARRIOS LA PAZ Y EL PRADO",
+   "contratista": "CDP OBRAS S.A.S.",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2026-09-23",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10943044"
   },
   {
    "tipo": "proceso",
@@ -2791,17 +2802,6 @@
    "estado": "Cancelado",
    "firma": "2025-09-23",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8823188"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.8961016",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION OPERATIVA EN EL DESARROLLO Y EJECUCION DE PLANES; PROGRAMAS Y POLITICAS EN ESPACIO PUBLICO EN EL MUNICIPIO DE CAUCASIA",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Seleccionado",
-   "firma": "2025-09-23",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8826817"
   }
  ],
  "ok": true
