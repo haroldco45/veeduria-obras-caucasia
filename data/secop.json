@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-14T02:52:42.168Z",
+ "hora": "2026-11-14T09:45:27.838Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -1925,6 +1925,17 @@
  "procesos": [
   {
    "tipo": "proceso",
+   "id": "CO1.REQ.11362978",
+   "entidad": "ESE HOSPITAL SAN JUAN DE DIOS DE ITUANGO",
+   "objeto": "PRESTACIÓN DE SERVICIOS",
+   "contratista": "JUAN FERNANDO MARTINEZ CONTRERAS",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2026-11-11",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11216919"
+  },
+  {
+   "tipo": "proceso",
    "id": "CO1.REQ.11287595",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "INTERVENTORIA TECNICA; ADMINISTRATIVA; FINANCIERA. LEGAL Y AMBIENTAL PARA EL CONTRATO DE OBRA CUYO OBJETO ES CONTRUCCION DE PAVIMENTO RIGIDO Y OBRAS COMPLEMENTARIAS; EN EL BARRIO EL PALMAR Y BARRIO",
@@ -1999,17 +2010,6 @@
    "estado": "Publicado",
    "firma": "2026-10-20",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11090099"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.11229424",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-009-2026",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Evaluación",
-   "firma": "2026-10-19",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11084101"
   },
   {
    "tipo": "proceso",
