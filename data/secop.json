@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-14T16:20:04.348Z",
+ "hora": "2026-11-14T20:51:41.102Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -339,6 +339,22 @@
   },
   {
    "tipo": "contrato",
+   "id": "CO1.PCCNTR.9527342",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "CONSTRUCCIÓN DE OBRA DE PROTECCIÓN CONTRA EROSIÓN EN LA MARGEN DERECHA DEL RIO TARAZÁ; SECTOR PUENTE EL BOSQUE; ZONA URBANA DEL MUNICIPIO DE TARAZA; ANTIOQUIA",
+   "contratista": "ASINCON SAS",
+   "valor": 562618806.36,
+   "pagado": null,
+   "facturado": null,
+   "estado": "terminado",
+   "inicio": "2026-06-09",
+   "fin": "2026-08-15",
+   "firma": "2026-06-01",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10296975&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
    "id": "CO1.PCCNTR.9542759",
    "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
    "objeto": "INTERVENTORÍA TÉCNICA; ADMINISTRATIVA; FINANCIERA Y AMBIENTAL A LA CONSTRUCCIÓN DE OBRA DE PROTECCION CONTRA EROSION EN LA MARGEN DERECHA DEL RIO TARAZÁ; SECTOR PUENTE EL BOSQUE; ZONA URBANA DEL MUNICIPIO DE TARAZÁ; ANTIOQUIA",
@@ -448,22 +464,6 @@
    "firma": "2026-04-10",
    "diasAdicionados": 14,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10134266&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.9393037",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "REPOSICION DE ALCANTARILLADO SANITARIO Y PLUVIAL EN EL BARRIO EL ROBLE MUNICIPIO DE CAUCASIA-ANTIOQUIA.",
-   "contratista": "H&V CONSTRUCCIONES & CONSULTORIAS S.A.S",
-   "valor": 111979929.37,
-   "pagado": null,
-   "facturado": null,
-   "estado": "Cerrado",
-   "inicio": "2026-04-09",
-   "fin": "2026-05-09",
-   "firma": "2026-03-17",
-   "diasAdicionados": 22,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10072398&isFromPublicArea=True&isModal=true&asPopupView=true"
   },
   {
    "tipo": "contrato",
