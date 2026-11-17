@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-17T00:55:43.080Z",
+ "hora": "2026-11-17T08:46:51.303Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -1980,6 +1980,17 @@
   },
   {
    "tipo": "proceso",
+   "id": "CO1.REQ.11266157",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-008-2026 (Fase de Selección (Presentación de ofertas))",
+   "contratista": "CONSORCIO SEDE LOS BAGRES",
+   "valor": 2649809262,
+   "estado": "Seleccionado",
+   "firma": "2026-10-26",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11120093"
+  },
+  {
+   "tipo": "proceso",
    "id": "CO1.REQ.11235289",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "MEJORAMIENTO Y RECUPERACION DEL ESPACIO PUBLICO; A TRAVES; DE LA ADECUACIÓN Y DOTACION DEL PARQUE LINEAL EN EL BARRIO EL TRIANGULO - SEGUNDA ETAPA - EN EL MUNICIPIO DE CAUCASIA; ANTIOQUIA",
@@ -2153,17 +2164,6 @@
    "estado": "Seleccionado",
    "firma": "2026-09-02",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10824094"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.10905601",
-   "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
-   "objeto": "ADECUACION DE INFRAESTRUCTURA FISICA PARA LA INSTALACION DEL ARCHIVO CENTRAL DE LA ALCALDIA EN EL MUNICIPIO DE CAUCASIA ANTIOQUIA",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Publicado",
-   "firma": "2026-08-24",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10759471"
   },
   {
    "tipo": "proceso",
@@ -2651,6 +2651,17 @@
   },
   {
    "tipo": "proceso",
+   "id": "CO1.REQ.9460109",
+   "entidad": "EMPRESA PARA EL DESARROLLO URBANO, RURAL Y HABITAT DEL URABA EICE EDURHABA",
+   "objeto": "INTERVENTORÍA TÉCNICA; ADMINISTRATIVA; FINANCIERA Y AMBIENTAL PARA LA CONSTRUCCION; MEJORAMIENTO; ADECUACIÓN Y DOTACIÓN DEL ESPACIO PÚBLICO EN EL PARQUE EL PALMAR; EN LA ZONA URBANA DEL MUNICIPIO",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2025-12-19",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9317714"
+  },
+  {
+   "tipo": "proceso",
    "id": "CO1.REQ.9457990",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "ADECUACION DE ALBERGUE TRANSITORIO DE FAUNA DOMESTICA EN EL MUNICIPIO DE CAUCASIA; DEPARTAMENTO DE ANTIOQUIA",
@@ -2659,6 +2670,17 @@
    "estado": "Publicado",
    "firma": "2025-12-19",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9314911"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.9454699",
+   "entidad": "EMPRESA PARA EL DESARROLLO URBANO, RURAL Y HABITAT DEL URABA EICE EDURHABA",
+   "objeto": "CONSTRUCCION; MEJORAMIENTO; ADECUACIÓN Y DOTACIÓN DEL ESPACIO PÚBLICO EN EL PARQUE EL PALMAR; EN LA ZONA URBANA DEL MUNICIPIO DE CAUCASIA DEPARTAMENTO DE ANTIOQUIA",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2025-12-18",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9313102"
   },
   {
    "tipo": "proceso",
@@ -2780,28 +2802,6 @@
    "estado": "Publicado",
    "firma": "2025-10-24",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9001220"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.9099518",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "CONTRATO INTERADMINISTRATIVO PARA MEJORAMIENTO DE INFRAESTRUCTURA DEPORTIVA EN EL ESTADIO DE FUTBOL DEL MUNICIPIO DE CAUCASIA ANTIOQUIA",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Seleccionado",
-   "firma": "2025-10-17",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8962497"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.9083372",
-   "entidad": "ALCALDIA MUNICIPIO DE VALDIVIA",
-   "objeto": "ADQUISICIÓN DE BIENES Y/O SERVICIOS PARA REALIZAR EL MANTENIMIENTO PREVENTIVO Y CORRECTIVO DEL PARQUE AUTOMOTOR (CAMIONETA VOLKSWAGEN TRANSPORTER Y RENAULT TRAFIC) ADSCRITOS AL ESTABLECIMIENTO PENITEN",
-   "contratista": "ANA MILENA ARROYAVE ORTEGA",
-   "valor": 19500000,
-   "estado": "Seleccionado",
-   "firma": "2025-10-15",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8946740"
   }
  ],
  "ok": true
