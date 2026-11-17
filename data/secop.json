@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-16T17:14:28.980Z",
+ "hora": "2026-11-17T00:55:43.080Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -672,6 +672,22 @@
    "firma": "2025-11-06",
    "diasAdicionados": 0,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8918475&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
+   "id": "CO1.PCCNTR.8524759",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "CONTRATO INTERADMINISTRATIVO POR ADMINISTRACIÓN DELEGADA PARA CONSTRUCCION E INTERVETORIA DE PUENTES EN CONCRETO REFORZADO EN VIAS TERCIARIAS (CORREGIMIENTO EL TIGRE) DEL MUNICIPIO DE CAUCASIA DEPARTAMENTO DE ANTIOQUIA",
+   "contratista": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
+   "valor": 584066151,
+   "pagado": null,
+   "facturado": null,
+   "estado": "Modificado",
+   "inicio": "2025-11-10",
+   "fin": "2026-08-04",
+   "firma": "2025-10-31",
+   "diasAdicionados": 46,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9041590&isFromPublicArea=True&isModal=true&asPopupView=true"
   },
   {
    "tipo": "contrato",
@@ -1904,22 +1920,6 @@
    "firma": "2024-04-08",
    "diasAdicionados": 496,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.5945472&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.6158429",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "ADMINISTRACIÓN DELEGADA DE RECURSOS PARA LA EJECUCIÓN DE LA PRESTACIÓN DEL SERVICIO E INTERVENTORÍA DEL TRANSPORTE ESCOLAR VIGENCIA 2024; PARA LOS ESTUDIANTES DE LOS ESTABLECIMIENTOS EDUCATIVOS OFICIALES DEL MUNICIPIO DE SAN MARTÍN CESAR",
-   "contratista": "COOTRANSMAG",
-   "valor": 10400000,
-   "pagado": null,
-   "facturado": null,
-   "estado": "terminado",
-   "inicio": "2024-04-02",
-   "fin": "2024-12-15",
-   "firma": "2024-04-01",
-   "diasAdicionados": 0,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.5865867&isFromPublicArea=True&isModal=true&asPopupView=true"
   }
  ],
  "procesos": [
