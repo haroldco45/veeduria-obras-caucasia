@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-18T01:06:57.790Z",
+ "hora": "2026-11-18T08:49:08.085Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -2409,14 +2409,47 @@
   },
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.10349697",
+   "id": "CO1.REQ.10389152",
    "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "SA-002-2026",
+   "objeto": "SA-002-2026 (Manifestación de interés (Menor Cuantía))",
    "contratista": "No Definido",
    "valor": null,
    "estado": "Evaluación",
+   "firma": "2026-04-28",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10245557"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.10366311",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "CONSTRUCCIÓN DE ESTRUCTURA EN CONCRETO PARA LA INSTALACIÓN DEL TANQUE ELEVADO DE ACUEDUCTO Y SU SISTEMA DE BOMBEO EN LA VEREDA DE LA ESMERALDA DEL MUNICIPIO DE CAUCASIA DEPARTAMENTO DE ANTIOQUIA",
+   "contratista": "SOCIAL LOGISTIC SAS",
+   "valor": 48996425,
+   "estado": "Seleccionado",
+   "firma": "2026-04-20",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10223316"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.10347389",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "MEJORAMIENTO DE ALUMBRADO PUBLICO EN ZONAS COMUNES MEDIANTE EL SUMINISTRO E INSTALACION DE ILUMINACION ORNAMENTAL EN EL PARQUE LA CEIBA DEL MUNICIPIO DE CAUCASIA",
+   "contratista": "TIENDA ELECTRICA DA SAS",
+   "valor": 49000000,
+   "estado": "Seleccionado",
    "firma": "2026-04-14",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10206739"
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10204915"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.10349067",
+   "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
+   "objeto": "CONSTRUCCIÓN Y MEJORAMIENTO DE LAS VIAS TERCIARIAS DEL MUNICIPIO DE CAUCASIA DEPARTAMENTO DE ANTIOQUIA",
+   "contratista": "SOCIAL LOGISTIC SAS",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2026-04-14",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10206506"
   },
   {
    "tipo": "proceso",
@@ -2475,6 +2508,17 @@
   },
   {
    "tipo": "proceso",
+   "id": "CO1.REQ.10296091",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "CONSTRUCCIÓN DE MEJORAMIENTOS LOCATIVOS DIRIGIDOS A MITIGAR EL DÉFICIT CUALITATIVO DE VIVIENDA EN CIENTO CINCUENTA (150) HOGARES UBICADOS EN LA ZONA RURAL MUNICIPIO DE CAUCASIA (Fase de Selección (Pre",
+   "contratista": "CONSORCIO VIVIR MEJOR",
+   "valor": 2203401884,
+   "estado": "Seleccionado",
+   "firma": "2026-03-25",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10153032"
+  },
+  {
+   "tipo": "proceso",
    "id": "CO1.REQ.10260322",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "CONSTRUCCIÓN DE LA SEGUNDA ETAPA DE LA I.E.R. LAS MALVINAS MUNICIPIO DE CAUCASIA ANTIOQUIA.",
@@ -2508,25 +2552,14 @@
   },
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.10247959",
+   "id": "CO1.REQ.10190824",
    "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-004-2026 (Fase de Selección (Presentación de ofertas))",
-   "contratista": "CONSORCIO JR",
-   "valor": 2439097498,
-   "estado": "Seleccionado",
-   "firma": "2026-03-09",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10105286"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.10204367",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-004-2026",
+   "objeto": "LP-003-2026",
    "contratista": "No Definido",
    "valor": null,
    "estado": "Evaluación",
-   "firma": "2026-02-23",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10061660"
+   "firma": "2026-02-19",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10048442"
   },
   {
    "tipo": "proceso",
@@ -2538,17 +2571,6 @@
    "estado": "Evaluación",
    "firma": "2026-02-16",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10035591"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.10143970",
-   "entidad": "MUNICIPIO DE ZARAGOZA",
-   "objeto": "LP-001-2026 (Fase de Selección (Presentación de ofertas))",
-   "contratista": "M&L  S.A.S",
-   "valor": 2931216829,
-   "estado": "Seleccionado",
-   "firma": "2026-02-09",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10000623"
   },
   {
    "tipo": "proceso",
@@ -2780,28 +2802,6 @@
    "estado": "Seleccionado",
    "firma": "2025-10-31",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9041590"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.9139365",
-   "entidad": "ODC",
-   "objeto": "CONTRATO 8000009652 - 8000009653",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Publicado",
-   "firma": "2025-10-24",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9001409"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.9139380",
-   "entidad": "ODC",
-   "objeto": "CONTRATO 8000009654",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Publicado",
-   "firma": "2025-10-24",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9001220"
   }
  ],
  "ok": true
