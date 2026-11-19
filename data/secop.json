@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-19T05:37:19.635Z",
+ "hora": "2026-11-19T15:06:05.149Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -275,6 +275,22 @@
   },
   {
    "tipo": "contrato",
+   "id": "CO1.PCCNTR.9613581",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "CONTRATO INTERADMINISTRATIVO DE MANDATO SIN REPRESENTACIÓN POR ADMINISTRACIÓN DELEGADA DE RECURSOS PARA EL MEJORAMIENTO; MANTENIMIENTO Y DOTACION DE LA INFRAESTRUCTURA EDUCATIVA EN EL MUNICIPIO DE CAUCASIA ANTIQUIA",
+   "contratista": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
+   "valor": 1134839087,
+   "pagado": null,
+   "facturado": null,
+   "estado": "Modificado",
+   "inicio": "2026-08-03",
+   "fin": "2026-12-31",
+   "firma": "2026-07-02",
+   "diasAdicionados": 58,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10443504&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
    "id": "CO1.PCCNTR.9587358",
    "entidad": "ALCALDIA DE CAUCASIA",
    "objeto": "ADECUACIÓN Y MANTENIMIENTO DEL RESTAURANTE ESCOLAR CORREGIMIENTO DE CUTURU ZONA RURAL DEL MUNICIPIO DE CAUCASIA ANTIOQUIA",
@@ -378,7 +394,7 @@
    "valor": 3166131012.1,
    "pagado": 1583065506.05,
    "facturado": 1583065506.05,
-   "estado": "Suspendido",
+   "estado": "En ejecución",
    "inicio": "2026-06-10",
    "fin": "2026-11-09",
    "firma": "2026-05-28",
@@ -672,22 +688,6 @@
    "firma": "2025-11-06",
    "diasAdicionados": 0,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8918475&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.8524759",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "CONTRATO INTERADMINISTRATIVO POR ADMINISTRACIÓN DELEGADA PARA CONSTRUCCION E INTERVETORIA DE PUENTES EN CONCRETO REFORZADO EN VIAS TERCIARIAS (CORREGIMIENTO EL TIGRE) DEL MUNICIPIO DE CAUCASIA DEPARTAMENTO DE ANTIOQUIA",
-   "contratista": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
-   "valor": 584066151,
-   "pagado": null,
-   "facturado": null,
-   "estado": "Modificado",
-   "inicio": "2025-11-10",
-   "fin": "2026-08-04",
-   "firma": "2025-10-31",
-   "diasAdicionados": 46,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9041590&isFromPublicArea=True&isModal=true&asPopupView=true"
   },
   {
    "tipo": "contrato",
@@ -1947,17 +1947,6 @@
   },
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.11296779",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-009-2026 (Fase de Selección (Presentación de ofertas))",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Evaluación",
-   "firma": "2026-10-30",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11150206"
-  },
-  {
-   "tipo": "proceso",
    "id": "CO1.REQ.11287595",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "INTERVENTORIA TECNICA; ADMINISTRATIVA; FINANCIERA. LEGAL Y AMBIENTAL PARA EL CONTRATO DE OBRA CUYO OBJETO ES CONTRUCCION DE PAVIMENTO RIGIDO Y OBRAS COMPLEMENTARIAS; EN EL BARRIO EL PALMAR Y BARRIO",
@@ -1977,17 +1966,6 @@
    "estado": "Publicado",
    "firma": "2026-10-29",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11141418"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.11266157",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-008-2026 (Fase de Selección (Presentación de ofertas))",
-   "contratista": "CONSORCIO SEDE LOS BAGRES",
-   "valor": 2649809262,
-   "estado": "Seleccionado",
-   "firma": "2026-10-26",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11120093"
   },
   {
    "tipo": "proceso",
@@ -2519,6 +2497,17 @@
   },
   {
    "tipo": "proceso",
+   "id": "CO1.REQ.10285398",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-003-2026 (Fase de Selección (Presentación de ofertas))",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Cancelado",
+   "firma": "2026-03-20",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10142645"
+  },
+  {
+   "tipo": "proceso",
    "id": "CO1.REQ.10260322",
    "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
    "objeto": "CONSTRUCCIÓN DE LA SEGUNDA ETAPA DE LA I.E.R. LAS MALVINAS MUNICIPIO DE CAUCASIA ANTIOQUIA.",
@@ -2552,25 +2541,25 @@
   },
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.10190824",
+   "id": "CO1.REQ.10247959",
    "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-003-2026",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Evaluación",
-   "firma": "2026-02-19",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10048442"
+   "objeto": "LP-004-2026 (Fase de Selección (Presentación de ofertas))",
+   "contratista": "CONSORCIO JR",
+   "valor": 2439097498,
+   "estado": "Seleccionado",
+   "firma": "2026-03-09",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10105286"
   },
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.10178604",
+   "id": "CO1.REQ.10204367",
    "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-002-2026",
+   "objeto": "LP-004-2026",
    "contratista": "No Definido",
    "valor": null,
    "estado": "Evaluación",
-   "firma": "2026-02-16",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10035591"
+   "firma": "2026-02-23",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10061660"
   },
   {
    "tipo": "proceso",
@@ -2802,6 +2791,17 @@
    "estado": "Seleccionado",
    "firma": "2025-10-31",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9041590"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.9139365",
+   "entidad": "ODC",
+   "objeto": "CONTRATO 8000009652 - 8000009653",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2025-10-24",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9001409"
   }
  ],
  "ok": true
