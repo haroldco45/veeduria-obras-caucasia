@@ -1,6 +1,38 @@
 {
- "hora": "2026-11-21T01:56:31.984Z",
+ "hora": "2026-11-21T09:12:22.522Z",
  "contratos": [
+  {
+   "tipo": "contrato",
+   "id": "CO1.PCCNTR.10197397",
+   "entidad": "MUNICIPIO DE TARAZA+",
+   "objeto": "PRESTACIÓN DE SERVICIOS DE APOYO A LA GESTIÓN ADMINISTRATIVA PARA LA OPERACIÓN LOGÍSTICA DE LA SEMANA MUNICIPAL DE LA JUVENTUD 2026 EN EL MUNICIPIO DE TARAZÁ; ANTIOQUIA.",
+   "contratista": "GROUP ASOCIADOS S.A.S",
+   "valor": 19998500,
+   "pagado": null,
+   "facturado": null,
+   "estado": "Aprobado",
+   "inicio": null,
+   "fin": "2026-11-28",
+   "firma": "2026-11-18",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11243356&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
+   "id": "CO1.PCCNTR.10175875",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "CONSTRUCCIÓN Y ADECUACIÓN DE LA PLANTA FISICA DE LA INSTITUCION EDUCATIVA MINAS SEDE LOS BAGRES DEL MUNICIPIO DE SAN MARTÍN; CESAR; CON BPIN 202600000019929",
+   "contratista": "CONSORCIO SEDE LOS BAGRES",
+   "valor": 2649809262.41,
+   "pagado": null,
+   "facturado": null,
+   "estado": "Aprobado",
+   "inicio": null,
+   "fin": "2027-03-30",
+   "firma": "2026-11-18",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11120093&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
   {
    "tipo": "contrato",
    "id": "CO1.PCCNTR.10144620",
@@ -314,7 +346,7 @@
    "valor": 137036838,
    "pagado": 43529997.03,
    "facturado": 60804152.03,
-   "estado": "En ejecución",
+   "estado": "Modificado",
    "inicio": "2026-06-24",
    "fin": "2026-12-30",
    "firma": "2026-06-22",
@@ -410,11 +442,11 @@
    "valor": 44700000,
    "pagado": null,
    "facturado": null,
-   "estado": "En ejecución",
+   "estado": "terminado",
    "inicio": "2026-05-15",
    "fin": "2026-06-15",
    "firma": "2026-05-14",
-   "diasAdicionados": 0,
+   "diasAdicionados": 1,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10284676&isFromPublicArea=True&isModal=true&asPopupView=true"
   },
   {
@@ -1843,22 +1875,6 @@
   },
   {
    "tipo": "contrato",
-   "id": "CO1.PCCNTR.6398806",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "ADECUACIÓN DE CUBIERTA EN AULA DE LA INSTITUCIÓN EDUCATIVA LICEO CONCEJO MUNICIPAL DE CAUCASIA - ANTIOQUIA.",
-   "contratista": "VAMA SOLUCIONES S.A.S",
-   "valor": 53184621,
-   "pagado": null,
-   "facturado": null,
-   "estado": "En ejecución",
-   "inicio": "2024-06-11",
-   "fin": "2024-07-10",
-   "firma": "2024-06-11",
-   "diasAdicionados": 0,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6145922&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
    "id": "CO1.PCCNTR.6370802",
    "entidad": "ALCALDIA DE CAUCASIA",
    "objeto": "MEJORAMIENTO DE LA MALLA VIAL EXISTENTE MEDIANTE REPARCHEO EN EL BARRIO SAN RAFAEL MUNICIPIO DE CAUCASIA- ANTIOQUIA",
@@ -1904,25 +1920,20 @@
    "firma": "2024-05-02",
    "diasAdicionados": 0,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6029312&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.6184811",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "INTERVENTORÍA ADMINISTRATIVA; AMBIENTAL; LEGAL Y FINANCIERA PARA LA OPTIMIZACIÓN Y CONSTRUCCIÓN DE LAS REDES DE ACUEDUCTO Y ALCANTARILLADO DEL DISTRITO ATASCOSO Y DEL BARRIO PUEBLO NUEVO; ZONA URBANA DEL MUNICIPIO DE CAUCASIA",
-   "contratista": "ASOURANOR",
-   "valor": 567180060,
-   "pagado": null,
-   "facturado": null,
-   "estado": "Modificado",
-   "inicio": "2024-11-05",
-   "fin": "2026-12-15",
-   "firma": "2024-04-08",
-   "diasAdicionados": 496,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.5945472&isFromPublicArea=True&isModal=true&asPopupView=true"
   }
  ],
  "procesos": [
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.11388397",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "CM-008-2026 (Presentación de oferta)",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Publicado",
+   "firma": "2026-11-18",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11242340"
+  },
   {
    "tipo": "proceso",
    "id": "CO1.REQ.11362978",
@@ -2791,17 +2802,6 @@
    "estado": "Seleccionado",
    "firma": "2025-10-31",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9041590"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.9139365",
-   "entidad": "ODC",
-   "objeto": "CONTRATO 8000009652 - 8000009653",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Publicado",
-   "firma": "2025-10-24",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9001409"
   }
  ],
  "ok": true
