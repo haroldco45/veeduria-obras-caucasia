@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-21T09:12:22.522Z",
+ "hora": "2026-11-21T16:53:26.854Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -10,8 +10,8 @@
    "valor": 19998500,
    "pagado": null,
    "facturado": null,
-   "estado": "Aprobado",
-   "inicio": null,
+   "estado": "En ejecución",
+   "inicio": "2026-11-18",
    "fin": "2026-11-28",
    "firma": "2026-11-18",
    "diasAdicionados": 0,
@@ -627,6 +627,22 @@
   },
   {
    "tipo": "contrato",
+   "id": "CO1.PCCNTR.8719678",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "ADMINISTRACIÓN DELEGADA DE RECURSOS PARA LA EJECUCIÓN E INTERVENTORIA DEL PROYECTO PARA LA OPTIMIZACION DEL COLECTOR EN EL BARRIO KENNEDY DEL MUNICIPIO DE CAUCASIA ANTIOQUIA EN EL MARCO DEL CONVENIO No. 040-COV251038 SUSCRITO CON CORANTIOQUIA CUYO ALCANCE ES CONSTRUCCION Y PUESTA EN MARCHA DE LA PTAR QUE ESTA EN CABEZA DEL MUNICIPIO",
+   "contratista": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
+   "valor": 3494598640,
+   "pagado": null,
+   "facturado": null,
+   "estado": "Modificado",
+   "inicio": "2025-12-22",
+   "fin": "2026-11-21",
+   "firma": "2025-12-19",
+   "diasAdicionados": 326,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9316215&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
    "id": "CO1.PCCNTR.8712892",
    "entidad": "ALCALDIA DE CAUCASIA",
    "objeto": "CONTRATO INTERADMINISTRATIVO POR ADMINISTRACIÓN DELEGADA PARA MEJORAMIENTO DE OBRAS PARA LA SEGURIDAD VIAL EN LA ZONA URBANA Y RURAL DEL MUNICIPIO DE CAUCASIA; DEPARTAMENTO DE ANTIOQUIA",
@@ -1027,22 +1043,6 @@
   },
   {
    "tipo": "contrato",
-   "id": "CO1.PCCNTR.8174476",
-   "entidad": "SENA REGIONAL ANTIOQUIA Grupo Administrativo CTPGA",
-   "objeto": "5_9501_775 CONTRATAR LA ADECUACIÓN DE ESPACIOS FÍSICOS (PUERTAS; VENTANAS-AMBIENTES DE FORMACIÓN) SUBSEDE LA URIBE DEL COMPLEJO TECNOLÓGICO PARA LA GESTIÓN AGROEMPRESARIAL",
-   "contratista": "H&V CONSTRUCCIONES & CONSULTORIAS S.A.S",
-   "valor": 149989645.7,
-   "pagado": null,
-   "facturado": null,
-   "estado": "terminado",
-   "inicio": "2025-08-13",
-   "fin": "2025-12-15",
-   "firma": "2025-08-08",
-   "diasAdicionados": 33,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.8488008&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
    "id": "CO1.PCCNTR.8142170",
    "entidad": "ALCALDIA DE CAUCASIA",
    "objeto": "CONTRATO INTERADMINISTRATIVO POR ADMINISTRACIÓN DELEGADA PARA LA CONSTRUCCION E INTERVENTORIA DE REDES DE ACUEDUCTO EN LOS BARRIOS ALDEAS VERDES Y BUENOS AIRES 1 Y 2 DEL MUNICIPIO DE CAUCASIA DEPARTAMENTO DE ANTIOQUIA",
@@ -1331,22 +1331,6 @@
   },
   {
    "tipo": "contrato",
-   "id": "CO1.PCCNTR.7153877",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "CONSTRUCCIÓN Y OPTIMIZACIÓN DE REDES DE ACUEDUCTO Y ALCANTARILLADO EN LA ZONA URBANA DEL MUNICIPIO DE TARAZA; ANTIOQUIA CON BPIN 2024057900052.",
-   "contratista": "JAZMIN SANCHEZ",
-   "valor": 1812761964,
-   "pagado": null,
-   "facturado": null,
-   "estado": "terminado",
-   "inicio": "2024-12-23",
-   "fin": "2025-07-21",
-   "firma": "2024-12-19",
-   "diasAdicionados": 30,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.7131064&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
    "id": "CO1.PCCNTR.7154522",
    "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
    "objeto": "RECUPERACIÓN; MANTENIMIENTO Y LIMPIEZA DE CAUCE DE CAÑOS Y DE ESPEJOS DE AGUA EN LA FINCA CAUCAYA; PROPIEDAD DEL MUNICIPIO DE TARAZA; EN ZONA RURAL DEL MUNICIPIO DE TARAZA; DEPARTAMENT0 DE ANTIOQUIA CON BPIN 2202405790005.",
@@ -1360,6 +1344,22 @@
    "firma": "2024-12-19",
    "diasAdicionados": 0,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.7194345&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
+   "id": "CO1.PCCNTR.7153877",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "CONSTRUCCIÓN Y OPTIMIZACIÓN DE REDES DE ACUEDUCTO Y ALCANTARILLADO EN LA ZONA URBANA DEL MUNICIPIO DE TARAZA; ANTIOQUIA CON BPIN 2024057900052.",
+   "contratista": "JAZMIN SANCHEZ",
+   "valor": 1812761964,
+   "pagado": null,
+   "facturado": null,
+   "estado": "terminado",
+   "inicio": "2024-12-23",
+   "fin": "2025-07-21",
+   "firma": "2024-12-19",
+   "diasAdicionados": 30,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.7131064&isFromPublicArea=True&isModal=true&asPopupView=true"
   },
   {
    "tipo": "contrato",
@@ -1424,6 +1424,22 @@
    "firma": "2024-11-18",
    "diasAdicionados": 511,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6912068&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
+   "id": "CO1.PCCNTR.6979230",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "MEJORAMIENTO DE LAS VIAS TERCIARIAS SECTOR LA RAYA - TIGRE 3 Y EL PANDO - TIGRE 3 MUNICIPIO DE CAUCASIA DEPRARTAMENTO DE ANTIOQUIA.",
+   "contratista": "CONSORCIO VIAS TERCIARIAS 2024",
+   "valor": 185000000,
+   "pagado": null,
+   "facturado": null,
+   "estado": "En ejecución",
+   "inicio": "2024-11-18",
+   "fin": "2024-12-18",
+   "firma": "2024-11-15",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6952103&isFromPublicArea=True&isModal=true&asPopupView=true"
   },
   {
    "tipo": "contrato",
@@ -1859,6 +1875,22 @@
   },
   {
    "tipo": "contrato",
+   "id": "CO1.PCCNTR.6398806",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "ADECUACIÓN DE CUBIERTA EN AULA DE LA INSTITUCIÓN EDUCATIVA LICEO CONCEJO MUNICIPAL DE CAUCASIA - ANTIOQUIA.",
+   "contratista": "VAMA SOLUCIONES S.A.S",
+   "valor": 53184621,
+   "pagado": null,
+   "facturado": null,
+   "estado": "En ejecución",
+   "inicio": "2024-06-11",
+   "fin": "2024-07-10",
+   "firma": "2024-06-11",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6145922&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
    "id": "CO1.PCCNTR.6399112",
    "entidad": "ALCALDIA DE CAUCASIA",
    "objeto": "CONSTRUCCION DE POZO PROFUNDO PARA AGUA EN LA INSTITUCION EDUCATIVA DEL CORREGIMIENTO DE RIO VIEJOEN ZONA RURAL DEL MUNICIPIO DE CAUCASIA - ANTIOQUIA.",
@@ -1888,38 +1920,6 @@
    "firma": "2024-06-05",
    "diasAdicionados": 0,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6130267&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.6345853",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "SUMINISTRO; ANCLAJE E INSTALACIÓN DE DOS PARQUES INFANTILES CON EL FIN DE FORTALECER EL TEJIDO SOCIAL Y HUMANO; PROMOVER ENTORNOS SEGUROS Y DE SANA CONVIVENCIA PARA LOS NIÑOS Y NIÑAS DEL KILÓMETRO EL 5 Y EL BARRIO SANTA HELENA; EN EL MUNICIPIO DE TARAZÁ ANTIOQUIA; ZONA DE INCIDENCIA DE LA REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA.",
-   "contratista": "CPSU SAS.",
-   "valor": 11600000,
-   "pagado": 11600000,
-   "facturado": 11600000,
-   "estado": "terminado",
-   "inicio": "2024-05-21",
-   "fin": "2024-06-10",
-   "firma": "2024-05-20",
-   "diasAdicionados": 0,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6118730&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.6280410",
-   "entidad": "SENA REGIONAL ANTIOQUIA Grupo Administrativo CTPGA",
-   "objeto": "5_9501_13 Prestar el servicio de mantenimiento preventivo y correctivo del parque automotor del Complejo Tecnológico Para la Gestión Agroempresarial",
-   "contratista": "ARISTA CORPORATIVA GM SAS",
-   "valor": 67000000,
-   "pagado": 66999998.43,
-   "facturado": 66999998.43,
-   "estado": "terminado",
-   "inicio": "2024-05-03",
-   "fin": "2024-09-02",
-   "firma": "2024-05-02",
-   "diasAdicionados": 0,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6029312&isFromPublicArea=True&isModal=true&asPopupView=true"
   }
  ],
  "procesos": [
