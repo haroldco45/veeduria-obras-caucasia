@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-22T17:56:59.682Z",
+ "hora": "2026-11-22T23:16:29.746Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -624,22 +624,6 @@
    "firma": "2025-12-19",
    "diasAdicionados": 52,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9305201&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.8719678",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "ADMINISTRACIÓN DELEGADA DE RECURSOS PARA LA EJECUCIÓN E INTERVENTORIA DEL PROYECTO PARA LA OPTIMIZACION DEL COLECTOR EN EL BARRIO KENNEDY DEL MUNICIPIO DE CAUCASIA ANTIOQUIA EN EL MARCO DEL CONVENIO No. 040-COV251038 SUSCRITO CON CORANTIOQUIA CUYO ALCANCE ES CONSTRUCCION Y PUESTA EN MARCHA DE LA PTAR QUE ESTA EN CABEZA DEL MUNICIPIO",
-   "contratista": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
-   "valor": 3494598640,
-   "pagado": null,
-   "facturado": null,
-   "estado": "Modificado",
-   "inicio": "2025-12-22",
-   "fin": "2026-11-21",
-   "firma": "2025-12-19",
-   "diasAdicionados": 326,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9316215&isFromPublicArea=True&isModal=true&asPopupView=true"
   },
   {
    "tipo": "contrato",
@@ -1920,20 +1904,25 @@
    "firma": "2024-06-05",
    "diasAdicionados": 0,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6130267&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
+  {
+   "tipo": "contrato",
+   "id": "CO1.PCCNTR.6345853",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "SUMINISTRO; ANCLAJE E INSTALACIÓN DE DOS PARQUES INFANTILES CON EL FIN DE FORTALECER EL TEJIDO SOCIAL Y HUMANO; PROMOVER ENTORNOS SEGUROS Y DE SANA CONVIVENCIA PARA LOS NIÑOS Y NIÑAS DEL KILÓMETRO EL 5 Y EL BARRIO SANTA HELENA; EN EL MUNICIPIO DE TARAZÁ ANTIOQUIA; ZONA DE INCIDENCIA DE LA REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA.",
+   "contratista": "CPSU SAS.",
+   "valor": 11600000,
+   "pagado": 11600000,
+   "facturado": 11600000,
+   "estado": "terminado",
+   "inicio": "2024-05-21",
+   "fin": "2024-06-10",
+   "firma": "2024-05-20",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6118730&isFromPublicArea=True&isModal=true&asPopupView=true"
   }
  ],
  "procesos": [
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.11388397",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "CM-008-2026 (Presentación de oferta)",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Publicado",
-   "firma": "2026-11-18",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11242340"
-  },
   {
    "tipo": "proceso",
    "id": "CO1.REQ.11362978",
@@ -1944,6 +1933,17 @@
    "estado": "Publicado",
    "firma": "2026-11-11",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11216919"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.11355114",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "CM-008-2026",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Evaluación",
+   "firma": "2026-11-10",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11208804"
   },
   {
    "tipo": "proceso",
@@ -2043,6 +2043,17 @@
    "estado": "Publicado",
    "firma": "2026-10-20",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11093562"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.11229424",
+   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
+   "objeto": "LP-009-2026",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Evaluación",
+   "firma": "2026-10-19",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11084101"
   },
   {
    "tipo": "proceso",
@@ -2791,17 +2802,6 @@
    "estado": "Seleccionado",
    "firma": "2025-12-04",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9250895"
-  },
-  {
-   "tipo": "proceso",
-   "id": "CO1.REQ.9181196",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "CONTRATO INTERADMINISTRATIVO POR ADMINISTRACIÓN DELEGADA PARA CONSTRUCCION E INTERVETORIA DE PUENTES EN CONCRETO REFORZADO EN VIAS TERCIARIAS (CORREGIMIENTO EL TIGRE) DEL MUNICIPIO DE CAUCASIA DEPA",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Seleccionado",
-   "firma": "2025-10-31",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9041590"
   }
  ],
  "ok": true
