@@ -1,5 +1,5 @@
 {
- "hora": "2026-11-24T01:29:39.393Z",
+ "hora": "2026-11-24T11:31:29.300Z",
  "contratos": [
   {
    "tipo": "contrato",
@@ -2046,17 +2046,6 @@
   },
   {
    "tipo": "proceso",
-   "id": "CO1.REQ.11229424",
-   "entidad": "REGIÓN DE PLANEACIÓN Y GESTIÓN DEL BAJO CAUCA",
-   "objeto": "LP-009-2026",
-   "contratista": "No Definido",
-   "valor": null,
-   "estado": "Evaluación",
-   "firma": "2026-10-19",
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11084101"
-  },
-  {
-   "tipo": "proceso",
    "id": "CO1.REQ.11210945",
    "entidad": "ESE HOSPÍTAL CESAR URIBE PIEDRAHITA",
    "objeto": "GARANTIZAR LAS LABORES PARA EL MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LA INFRAESTRUCTURA FÍSICA DE LA E.S.E HOSPITAL CÉSAR URIBE PIEDRAHITA SEDE EL MAN Y ANTIGUA SEDE PALMAR EN EL MUNICIPIO DE CAUCA",
@@ -2802,6 +2791,17 @@
    "estado": "Seleccionado",
    "firma": "2025-12-04",
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9250895"
+  },
+  {
+   "tipo": "proceso",
+   "id": "CO1.REQ.9181196",
+   "entidad": "ALCALDIA DE CAUCASIA",
+   "objeto": "CONTRATO INTERADMINISTRATIVO POR ADMINISTRACIÓN DELEGADA PARA CONSTRUCCION E INTERVETORIA DE PUENTES EN CONCRETO REFORZADO EN VIAS TERCIARIAS (CORREGIMIENTO EL TIGRE) DEL MUNICIPIO DE CAUCASIA DEPA",
+   "contratista": "No Definido",
+   "valor": null,
+   "estado": "Seleccionado",
+   "firma": "2025-10-31",
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.9041590"
   }
  ],
  "ok": true
