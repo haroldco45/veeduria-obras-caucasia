@@ -1,6 +1,22 @@
 {
- "hora": "2026-11-27T19:18:35.415Z",
+ "hora": "2026-11-28T02:05:18.880Z",
  "contratos": [
+  {
+   "tipo": "contrato",
+   "id": "CO1.PCCNTR.10225287",
+   "entidad": "MUNICIPIO DE TARAZA+",
+   "objeto": "PRESTACIÓN DE SERVICIOS DE APOYO A LA GESTIÓN ADMINISTRATIVA A TRAVÉS DE LA OPERACIÓN LOGÍSTICA DE LA PARTICIPACIÓN EN LA FINAL DEPARTAMENTAL DE LOS JUEGOS DEPORTIVOS DEPARTAMENTALES EN LOS MUNICIPIOS DE ENVIGADO Y RIONEGRO ANTIOQUIA; CON DEPORTISTAS DEL MUNICIPIO DE TARAZÁ; ANTIOQUIA.",
+   "contratista": "GROUP ASOCIADOS S.A.S",
+   "valor": 48699000,
+   "pagado": null,
+   "facturado": null,
+   "estado": "Aprobado",
+   "inicio": null,
+   "fin": "2026-12-14",
+   "firma": "2026-11-25",
+   "diasAdicionados": 0,
+   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11282051&isFromPublicArea=True&isModal=true&asPopupView=true"
+  },
   {
    "tipo": "contrato",
    "id": "CO1.PCCNTR.10197397",
@@ -1904,22 +1920,6 @@
    "firma": "2024-06-11",
    "diasAdicionados": 0,
    "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6140419&isFromPublicArea=True&isModal=true&asPopupView=true"
-  },
-  {
-   "tipo": "contrato",
-   "id": "CO1.PCCNTR.6370802",
-   "entidad": "ALCALDIA DE CAUCASIA",
-   "objeto": "MEJORAMIENTO DE LA MALLA VIAL EXISTENTE MEDIANTE REPARCHEO EN EL BARRIO SAN RAFAEL MUNICIPIO DE CAUCASIA- ANTIOQUIA",
-   "contratista": "SOCIAL LOGISTIC SAS",
-   "valor": 34035408,
-   "pagado": null,
-   "facturado": null,
-   "estado": "En ejecución",
-   "inicio": "2024-06-14",
-   "fin": "2024-06-28",
-   "firma": "2024-06-05",
-   "diasAdicionados": 0,
-   "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.6130267&isFromPublicArea=True&isModal=true&asPopupView=true"
   }
  ],
  "procesos": [
